@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recording xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Client.ServerForm.TaskRecording">
+  <CanonicalId>0c404159-6a89-4378-885f-a2226c8affe5</CanonicalId>
+  <CurrentSequence>37</CurrentSequence>
+  <Description></Description>
+  <FormContexts xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>2521_CustTable_c7861d7c-5a16-40fa-8783-9bb43efb8de1</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>CustTable</ConfigurationOwnerName>
+            <ConfigurationScope>10</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>1</FormViewOptionType>
+            <MenuItemLabel>All customers</MenuItemLabel>
+            <MenuItemName>CustTableListPage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>CustTable</ConfigurationOwnerName>
+            <ConfigurationScope>10</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>0</FormViewOptionType>
+            <MenuItemLabel>All customers</MenuItemLabel>
+            <MenuItemName>CustTableListPage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>2521_CustTable_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormID>
+        <FormName>CustTable</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>CustTable</RecordingName>
+        <Sequence>4</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>4443_DirPartyQuickCreateForm_c7861d7c-5a16-40fa-8783-9bb43efb8de1</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>DirPartyQuickCreateForm</ConfigurationOwnerName>
+            <ConfigurationScope>10</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>0</FormViewOptionType>
+            <MenuItemLabel>Create customer</MenuItemLabel>
+            <MenuItemName>CustomerquickCreate</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>4443_DirPartyQuickCreateForm_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormID>
+        <FormName>DirPartyQuickCreateForm</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>DirPartyQuickCreateForm</RecordingName>
+        <Sequence>10</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>4575_DynamicDetail_CustGroup_Lookup_c7861d7c-5a16-40fa-8783-9bb43efb8de1</d2p1:Key>
+      <d2p1:Value>
+        <Annotations i:nil="true" />
+        <FormID>4575_DynamicDetail_CustGroup_Lookup_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormID>
+        <FormName></FormName>
+        <HasMetadata>false</HasMetadata>
+        <RecordingName>DynamicDetail_CustGroup_Lookup</RecordingName>
+        <Sequence>20</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+  </FormContexts>
+  <Name>CreateCustomer</Name>
+  <RootScope z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+    <CustomDescription i:nil="true" />
+    <Description i:nil="true" />
+    <Id>c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+    <Parent i:nil="true" />
+    <ParentSequence>0</ParentSequence>
+    <ScreenshotUri i:nil="true" />
+    <Sequence>0</Sequence>
+    <Children>
+      <Node z:Id="i2" i:type="Scope">
+        <CustomDescription i:nil="true" />
+        <Description></Description>
+        <Id>MenuItemcusttablelistpage_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+        <Parent z:Ref="i1" />
+        <ParentSequence>0</ParentSequence>
+        <ScreenshotUri i:nil="true" />
+        <Sequence>1</Sequence>
+        <Children>
+          <Node z:Id="i3" i:type="MenuItemUserAction">
+            <CustomDescription i:nil="true" />
+            <Description>Go to Accounts receivable &gt; Customers &gt; All customers.</Description>
+            <Id>MenuItemcusttablelistpage_c7861d7c-5a16-40fa-8783-9bb43efb8de1x2</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>2</Sequence>
+            <Annotations />
+            <GlobalId>96fbf1de-aa88-42d1-b1f0-0a7a7405f1aa</GlobalId>
+            <SystemGenerated>false</SystemGenerated>
+            <MenuItemName>custtablelistpage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <NavigationPath xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string>mainmenu</d7p1:string>
+              <d7p1:string>AccountsReceivable</d7p1:string>
+              <d7p1:string>Customers</d7p1:string>
+            </NavigationPath>
+          </Node>
+          <Node z:Id="i4" i:type="Scope">
+            <CustomDescription i:nil="true" />
+            <Description></Description>
+            <Id>2521_CustTable_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>3</Sequence>
+            <Children>
+              <Node z:Id="i5" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>4060Click_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>6</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>7</Sequence>
+                <Children>
+                  <Node z:Id="i6" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click New.</Description>
+                    <Id>4060Click_c7861d7c-5a16-40fa-8783-9bb43efb8de1x8</Id>
+                    <Parent z:Ref="i5" />
+                    <ParentSequence>7</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>8</Sequence>
+                    <Annotations />
+                    <GlobalId>f78d0058-6765-4357-b68a-52b91077af24</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>New</ControlLabel>
+                    <ControlLabelId>@SYS2055</ControlLabelId>
+                    <FormId>2521_CustTable_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>Click</CommandName>
+                    <ControlName>NewCustomer</ControlName>
+                    <ControlType>MenuItemButton</ControlType>
+                    <LabelId></LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId i:nil="true" />
+                  </Node>
+                  <Node z:Id="i7" i:type="Scope">
+                    <CustomDescription i:nil="true" />
+                    <Description></Description>
+                    <Id>4443_DirPartyQuickCreateForm_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                    <Parent z:Ref="i5" />
+                    <ParentSequence>7</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>9</Sequence>
+                    <Children>
+                      <Node z:Id="i8" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>4536Value_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>11</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>12</Sequence>
+                        <Children>
+                          <Node z:Id="i9" i:type="PropertyUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the Customer account field, type a value.</Description>
+                            <Id>4536Value_c7861d7c-5a16-40fa-8783-9bb43efb8de1x13</Id>
+                            <Parent z:Ref="i8" />
+                            <ParentSequence>12</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>13</Sequence>
+                            <Annotations />
+                            <GlobalId>fdb3a7a6-bf86-4290-95fe-9a22bbeb955f</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Customer account</ControlLabel>
+                            <ControlLabelId>@SYS7149</ControlLabelId>
+                            <FormId>4443_DirPartyQuickCreateForm_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <BoundDataSource>DirPartyEntity</BoundDataSource>
+                            <BoundProperty>AccountNum</BoundProperty>
+                            <ControlName>DynamicHeader_AccountNum</ControlName>
+                            <ControlType>Input</ControlType>
+                            <IsReference>false</IsReference>
+                            <LabelId i:nil="true" />
+                            <PropertyName>Value</PropertyName>
+                            <UserActionType>Input</UserActionType>
+                            <Value>TEST-001</Value>
+                            <ValueLabel i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>DynamicHeader_AccountNum_Value</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i10" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>4539Value_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>14</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>15</Sequence>
+                        <Children>
+                          <Node z:Id="i11" i:type="PropertyUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the Name field, type a value.</Description>
+                            <Id>4539Value_c7861d7c-5a16-40fa-8783-9bb43efb8de1x16</Id>
+                            <Parent z:Ref="i10" />
+                            <ParentSequence>15</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>16</Sequence>
+                            <Annotations />
+                            <GlobalId>e35f7d19-518d-4fd6-9e71-1c2d6ddb1797</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Name</ControlLabel>
+                            <ControlLabelId>@SYS80991</ControlLabelId>
+                            <FormId>4443_DirPartyQuickCreateForm_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <BoundDataSource>DirPartyTable</BoundDataSource>
+                            <BoundProperty>Name</BoundProperty>
+                            <ControlName>Org_Name</ControlName>
+                            <ControlType>Input</ControlType>
+                            <IsReference>false</IsReference>
+                            <LabelId i:nil="true" />
+                            <PropertyName>Value</PropertyName>
+                            <UserActionType>Input</UserActionType>
+                            <Value>TEST TEST</Value>
+                            <ValueLabel i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>Org_Name_Value</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i12" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description i:nil="true" />
+                        <Id>4541RequestPopup_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>17</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>18</Sequence>
+                        <Children>
+                          <Node z:Id="i13" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the Customer group field, enter or select a value.</Description>
+                            <Id>4541RequestPopup_c7861d7c-5a16-40fa-8783-9bb43efb8de1x19</Id>
+                            <Parent z:Ref="i12" />
+                            <ParentSequence>18</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>19</Sequence>
+                            <Annotations>
+                              <Annotation i:type="CanonicalActionAnnotation">
+                                <CanonicalUserAction z:Id="i14" i:type="PropertyUserAction">
+                                  <CustomDescription i:nil="true" />
+                                  <Description i:nil="true" />
+                                  <Id i:nil="true" />
+                                  <Parent i:nil="true" />
+                                  <ParentSequence>0</ParentSequence>
+                                  <ScreenshotUri i:nil="true" />
+                                  <Sequence>0</Sequence>
+                                  <Annotations>
+                                    <Annotation i:type="LookupAnnotation">
+                                      <ParentFormName>DirPartyQuickCreateForm</ParentFormName>
+                                      <ReferenceDataSource i:nil="true" />
+                                      <TableName>CustGroup</TableName>
+                                    </Annotation>
+                                  </Annotations>
+                                  <GlobalId>64366b30-576b-462a-9f6c-e65bfd1c7717</GlobalId>
+                                  <SystemGenerated>false</SystemGenerated>
+                                  <ControlLabel>Customer group</ControlLabel>
+                                  <ControlLabelId>@SYS11904</ControlLabelId>
+                                  <FormId>4443_DirPartyQuickCreateForm_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                                  <ListContext i:nil="true" />
+                                  <RowIndex i:nil="true" />
+                                  <BoundDataSource>DirPartyEntity</BoundDataSource>
+                                  <BoundProperty>CustGroup</BoundProperty>
+                                  <ControlName>DynamicDetail_CustGroup</ControlName>
+                                  <ControlType>Input</ControlType>
+                                  <IsReference>false</IsReference>
+                                  <LabelId i:nil="true" />
+                                  <PropertyName>Value</PropertyName>
+                                  <UserActionType>Input</UserActionType>
+                                  <Value>10</Value>
+                                  <ValueLabel i:nil="true" />
+                                </CanonicalUserAction>
+                              </Annotation>
+                            </Annotations>
+                            <GlobalId>89efdd02-7a37-425b-9adb-4b229d2ff0a6</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Customer group</ControlLabel>
+                            <ControlLabelId>@SYS11904</ControlLabelId>
+                            <FormId>4443_DirPartyQuickCreateForm_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>RequestPopup</CommandName>
+                            <ControlName>DynamicDetail_CustGroup</ControlName>
+                            <ControlType>Input</ControlType>
+                            <LabelId>@SysTaskRecorder:SetValueFromLookUp</LabelId>
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId i:nil="true" />
+                          </Node>
+                          <Node z:Id="i15" i:type="Scope">
+                            <CustomDescription i:nil="true" />
+                            <Description></Description>
+                            <Id>4575_DynamicDetail_CustGroup_Lookup_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                            <Parent z:Ref="i12" />
+                            <ParentSequence>18</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>21</Sequence>
+                            <Children>
+                              <Node z:Id="i16" i:type="Scope">
+                                <CustomDescription i:nil="true" />
+                                <Description></Description>
+                                <Id>4585NavigationAction_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                                <Parent z:Ref="i15" />
+                                <ParentSequence>22</ParentSequence>
+                                <ScreenshotUri i:nil="true" />
+                                <Sequence>23</Sequence>
+                                <Children>
+                                  <Node z:Id="i17" i:type="CommandUserAction">
+                                    <CustomDescription i:nil="true" />
+                                    <Description>In the list, click the link in the selected row.</Description>
+                                    <Id>4585NavigationAction_c7861d7c-5a16-40fa-8783-9bb43efb8de1x24</Id>
+                                    <Parent z:Ref="i16" />
+                                    <ParentSequence>23</ParentSequence>
+                                    <ScreenshotUri i:nil="true" />
+                                    <Sequence>24</Sequence>
+                                    <Annotations>
+                                      <Annotation i:type="TaskGuideAnnotation">
+                                        <Description i:nil="true" />
+                                        <ExampleText i:nil="true" />
+                                        <GlobalId i:nil="true" />
+                                        <Hidden>true</Hidden>
+                                        <RecordingValueType>Preferred</RecordingValueType>
+                                        <Title i:nil="true" />
+                                      </Annotation>
+                                    </Annotations>
+                                    <GlobalId>48036366-5133-4287-8723-cdf06f4a7aba</GlobalId>
+                                    <SystemGenerated>false</SystemGenerated>
+                                    <ControlLabel></ControlLabel>
+                                    <ControlLabelId></ControlLabelId>
+                                    <FormId>4575_DynamicDetail_CustGroup_Lookup_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                                    <ListContext>Grid</ListContext>
+                                    <RowIndex i:nil="true" />
+                                    <Arguments />
+                                    <CommandName>NavigationAction</CommandName>
+                                    <ControlName>Grid</ControlName>
+                                    <ControlType>Grid</ControlType>
+                                    <LabelId></LabelId>
+                                    <ReturnType>Void</ReturnType>
+                                    <ReturnValue i:nil="true" />
+                                    <TaskId i:nil="true" />
+                                  </Node>
+                                </Children>
+                                <IsForm>false</IsForm>
+                                <IsStepGroup>false</IsStepGroup>
+                                <Name>Grid_NavigationAction</Name>
+                                <ScopeType>Private</ScopeType>
+                              </Node>
+                            </Children>
+                            <IsForm>true</IsForm>
+                            <IsStepGroup>false</IsStepGroup>
+                            <Name>DynamicDetail_CustGroup_Lookup</Name>
+                            <ScopeType>Private</ScopeType>
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>true</IsStepGroup>
+                        <Name>DynamicDetail_CustGroup_RequestPopup</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i18" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>4562Value_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>25</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>26</Sequence>
+                        <Children>
+                          <Node z:Id="i19" i:type="PropertyUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the Phone field, type a value.</Description>
+                            <Id>4562Value_c7861d7c-5a16-40fa-8783-9bb43efb8de1x27</Id>
+                            <Parent z:Ref="i18" />
+                            <ParentSequence>26</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>27</Sequence>
+                            <Annotations />
+                            <GlobalId>1298b950-f027-4d2e-b278-b34067fc5542</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Phone</ControlLabel>
+                            <ControlLabelId>@SYS80287</ControlLabelId>
+                            <FormId>4443_DirPartyQuickCreateForm_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <BoundDataSource>LogisticsElectronicAddressBusinessPhone</BoundDataSource>
+                            <BoundProperty>Locator</BoundProperty>
+                            <ControlName>LogisticsElectronicAddressBP_Locator</ControlName>
+                            <ControlType>Input</ControlType>
+                            <IsReference>false</IsReference>
+                            <LabelId i:nil="true" />
+                            <PropertyName>Value</PropertyName>
+                            <UserActionType>Input</UserActionType>
+                            <Value>9870634521</Value>
+                            <ValueLabel i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>LogisticsElectronicAddressBP_Locator_Value</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i20" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>4566_0Click_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>28</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>29</Sequence>
+                        <Children>
+                          <Node z:Id="i21" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>Click Save.</Description>
+                            <Id>4566_0Click_c7861d7c-5a16-40fa-8783-9bb43efb8de1x30</Id>
+                            <Parent z:Ref="i20" />
+                            <ParentSequence>29</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>30</Sequence>
+                            <Annotations />
+                            <GlobalId>1a5f02a0-8cc5-426b-b5b1-58d0e58e035e</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Save</ControlLabel>
+                            <ControlLabelId>@SYS12229</ControlLabelId>
+                            <FormId>4443_DirPartyQuickCreateForm_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>Click</CommandName>
+                            <ControlName>OKButton</ControlName>
+                            <ControlType>CommandButton</ControlType>
+                            <LabelId i:nil="true" />
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId>263</TaskId>
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>OKButton_Click</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                    </Children>
+                    <IsForm>true</IsForm>
+                    <IsStepGroup>false</IsStepGroup>
+                    <Name>DirPartyQuickCreateForm</Name>
+                    <ScopeType>Public</ScopeType>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>NewCustomer_Click</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i22" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>2521_0OpenGridView_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>3</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>33</Sequence>
+                <Children>
+                  <Node z:Id="i23" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click the form caption.</Description>
+                    <Id>2521_0OpenGridView_c7861d7c-5a16-40fa-8783-9bb43efb8de1x34</Id>
+                    <Parent z:Ref="i22" />
+                    <ParentSequence>33</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>34</Sequence>
+                    <Annotations />
+                    <GlobalId>1b726323-e0c3-464f-a973-291655ac6e7b</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel i:nil="true" />
+                    <ControlLabelId i:nil="true" />
+                    <FormId>2521_CustTable_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>OpenGridView</CommandName>
+                    <ControlName i:nil="true" />
+                    <ControlType i:nil="true" />
+                    <LabelId>@SysTaskRecorder:OpenGridView</LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId></TaskId>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>OpenGridView</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i24" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>5844_0Click_c7861d7c-5a16-40fa-8783-9bb43efb8de1</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>35</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>36</Sequence>
+                <Children>
+                  <Node z:Id="i25" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click Save.</Description>
+                    <Id>5844_0Click_c7861d7c-5a16-40fa-8783-9bb43efb8de1x37</Id>
+                    <Parent z:Ref="i24" />
+                    <ParentSequence>36</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>37</Sequence>
+                    <Annotations />
+                    <GlobalId>acd8d69c-f116-44bf-a47d-c2f3c6f018d3</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>Save</ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>2521_CustTable_c7861d7c-5a16-40fa-8783-9bb43efb8de1</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>Click</CommandName>
+                    <ControlName>SystemDefinedSaveButton</ControlName>
+                    <ControlType>CommandButton</ControlType>
+                    <LabelId i:nil="true" />
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId>272</TaskId>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>SystemDefinedSaveButton_Click</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+            </Children>
+            <IsForm>true</IsForm>
+            <IsStepGroup>false</IsStepGroup>
+            <Name>CustTable</Name>
+            <ScopeType>Public</ScopeType>
+          </Node>
+        </Children>
+        <IsForm>false</IsForm>
+        <IsStepGroup>false</IsStepGroup>
+        <Name>MenuItem_custtablelistpage</Name>
+        <ScopeType>Private</ScopeType>
+      </Node>
+    </Children>
+    <IsForm>false</IsForm>
+    <IsStepGroup>false</IsStepGroup>
+    <Name>CreateCustomer</Name>
+    <ScopeType>Public</ScopeType>
+  </RootScope>
+  <UserActions xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:anyType z:Ref="i3" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i6" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i9" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i11" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i13" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i17" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i19" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i21" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i23" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i25" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+  </UserActions>
+  <Version>1</Version>
+</Recording>

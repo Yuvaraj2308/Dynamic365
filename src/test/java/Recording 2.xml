@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recording xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Client.ServerForm.TaskRecording">
+  <CanonicalId>fb5822f1-f3a2-496e-ba0c-fc62de16db6c</CanonicalId>
+  <CurrentSequence>13</CurrentSequence>
+  <Description></Description>
+  <FormContexts xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>4927_CustTable_c7f97467-db68-4b81-87c8-5707cc894a63</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>CustTable</ConfigurationOwnerName>
+            <ConfigurationScope>10</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>0</FormViewOptionType>
+            <MenuItemLabel>All customers</MenuItemLabel>
+            <MenuItemName>CustTableListPage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>CustTable</ConfigurationOwnerName>
+            <ConfigurationScope>10</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>1</FormViewOptionType>
+            <MenuItemLabel>All customers</MenuItemLabel>
+            <MenuItemName>CustTableListPage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>4927_CustTable_c7f97467-db68-4b81-87c8-5707cc894a63</FormID>
+        <FormName>CustTable</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>CustTable</RecordingName>
+        <Sequence>4</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+  </FormContexts>
+  <Name>Recording 2</Name>
+  <RootScope z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+    <CustomDescription i:nil="true" />
+    <Description i:nil="true" />
+    <Id>c7f97467-db68-4b81-87c8-5707cc894a63</Id>
+    <Parent i:nil="true" />
+    <ParentSequence>0</ParentSequence>
+    <ScreenshotUri i:nil="true" />
+    <Sequence>0</Sequence>
+    <Children>
+      <Node z:Id="i2" i:type="Scope">
+        <CustomDescription i:nil="true" />
+        <Description></Description>
+        <Id>MenuItemcusttablelistpage_c7f97467-db68-4b81-87c8-5707cc894a63</Id>
+        <Parent z:Ref="i1" />
+        <ParentSequence>0</ParentSequence>
+        <ScreenshotUri i:nil="true" />
+        <Sequence>1</Sequence>
+        <Children>
+          <Node z:Id="i3" i:type="MenuItemUserAction">
+            <CustomDescription i:nil="true" />
+            <Description>Go to Sales and marketing &gt; Customers &gt; All customers.</Description>
+            <Id>MenuItemcusttablelistpage_c7f97467-db68-4b81-87c8-5707cc894a63x2</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>2</Sequence>
+            <Annotations />
+            <GlobalId>46bf4bbc-c624-4972-a30e-ddafa52e26ab</GlobalId>
+            <SystemGenerated>false</SystemGenerated>
+            <MenuItemName>custtablelistpage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <NavigationPath xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string>mainmenu</d7p1:string>
+              <d7p1:string>SalesAndMarketing</d7p1:string>
+              <d7p1:string>Customers</d7p1:string>
+            </NavigationPath>
+          </Node>
+          <Node z:Id="i4" i:type="Scope">
+            <CustomDescription i:nil="true" />
+            <Description></Description>
+            <Id>4927_CustTable_c7f97467-db68-4b81-87c8-5707cc894a63</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>3</Sequence>
+            <Children>
+              <Node z:Id="i5" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>SystemDefinedFilterManager_GetFilters_c7f97467-db68-4b81-87c8-5707cc894a63</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>6</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>7</Sequence>
+                <Children>
+                  <Node z:Id="i6" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Open Account column filter.</Description>
+                    <Id>SystemDefinedFilterManager_GetFilters_c7f97467-db68-4b81-87c8-5707cc894a63x8</Id>
+                    <Parent z:Ref="i5" />
+                    <ParentSequence>7</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>8</Sequence>
+                    <Annotations />
+                    <GlobalId>be44ce42-c5f4-4519-aca9-a55dd51e52ca</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel></ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>4927_CustTable_c7f97467-db68-4b81-87c8-5707cc894a63</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>[{"Capability":null,"DataSourceName":"","FieldArrayIndex":1,"FieldName":"AccountNum","FormDataSourceName":"CustTable","IsEditable":"Yes","IsQueryFilter":"Yes","MasterFormDataSourceName":"","Operator":"Matches","RecordingReferences":[],"SFKReplacementFieldBinding":"","TableId":0,"Values":[""],"Version":2}]</Value>
+                      </CommandArgument>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>CustTable_AccountNum</Value>
+                      </CommandArgument>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>Account</Value>
+                      </CommandArgument>
+                    </Arguments>
+                    <CommandName>GetFilters</CommandName>
+                    <ControlName>SystemDefinedFilterManager</ControlName>
+                    <ControlType>FilterManager</ControlType>
+                    <LabelId i:nil="true" />
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue></ReturnValue>
+                    <TaskId i:nil="true" />
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>SystemDefinedFilterManager_GetFilters</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i7" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>SystemDefinedFilterManager_ApplyFiltersForTaskRecorder_c7f97467-db68-4b81-87c8-5707cc894a63</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>6</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>9</Sequence>
+                <Children>
+                  <Node z:Id="i8" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Enter a filter value of "US-001" on the "Account" field using the "begins with" filter operator.</Description>
+                    <Id>SystemDefinedFilterManager_ApplyFiltersForTaskRecorder_c7f97467-db68-4b81-87c8-5707cc894a63x10</Id>
+                    <Parent z:Ref="i7" />
+                    <ParentSequence>9</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>10</Sequence>
+                    <Annotations />
+                    <GlobalId>ad377975-50ad-488f-b778-7097e37c2fcd</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel></ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>4927_CustTable_c7f97467-db68-4b81-87c8-5707cc894a63</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>[{"Capability":{"DisplayDataType":"String","DomainValues":null,"FieldId":0,"FieldLabel":"Account","FieldName":"","RelationLabel":"","SFKReplacementFieldBinding":"","ShowLookup":false,"TableId":0,"Version":2},"DataSourceName":"CustTable","FieldArrayIndex":1,"FieldName":"AccountNum","FormDataSourceName":"CustTable","IsEditable":"Yes","IsQueryFilter":"Yes","MasterFormDataSourceName":"CustTable","Operator":"BeginsWith","RecordingReferences":[],"SFKReplacementFieldBinding":"","TableId":10347,"Values":["US-001"],"Version":2}]</Value>
+                      </CommandArgument>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>1</Value>
+                      </CommandArgument>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>134</Value>
+                      </CommandArgument>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>Enter a filter value of "US-001" on the "Account" field using the "begins with" filter operator.</Value>
+                      </CommandArgument>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>[{"FieldLabel":"Account","OperatorLabel":"begins with","Values":"US-001"}]</Value>
+                      </CommandArgument>
+                    </Arguments>
+                    <CommandName>ApplyFiltersForTaskRecorder</CommandName>
+                    <ControlName>SystemDefinedFilterManager</ControlName>
+                    <ControlType>FilterManager</ControlType>
+                    <LabelId i:nil="true" />
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue></ReturnValue>
+                    <TaskId i:nil="true" />
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>SystemDefinedFilterManager_ApplyFiltersForTaskRecorder</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i9" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>6599NavigationAction_c7f97467-db68-4b81-87c8-5707cc894a63</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>11</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>12</Sequence>
+                <Children>
+                  <Node z:Id="i10" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>In the list, click the link in the selected row.</Description>
+                    <Id>6599NavigationAction_c7f97467-db68-4b81-87c8-5707cc894a63x13</Id>
+                    <Parent z:Ref="i9" />
+                    <ParentSequence>12</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>13</Sequence>
+                    <Annotations />
+                    <GlobalId>ba5ba84a-ffe5-46be-86d3-78e1132105a4</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel></ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>4927_CustTable_c7f97467-db68-4b81-87c8-5707cc894a63</FormId>
+                    <ListContext>Grid</ListContext>
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>NavigationAction</CommandName>
+                    <ControlName>Grid</ControlName>
+                    <ControlType>Grid</ControlType>
+                    <LabelId></LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId i:nil="true" />
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>Grid_NavigationAction</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+            </Children>
+            <IsForm>true</IsForm>
+            <IsStepGroup>false</IsStepGroup>
+            <Name>CustTable</Name>
+            <ScopeType>Public</ScopeType>
+          </Node>
+        </Children>
+        <IsForm>false</IsForm>
+        <IsStepGroup>false</IsStepGroup>
+        <Name>MenuItem_custtablelistpage</Name>
+        <ScopeType>Private</ScopeType>
+      </Node>
+    </Children>
+    <IsForm>false</IsForm>
+    <IsStepGroup>false</IsStepGroup>
+    <Name>Recording 2</Name>
+    <ScopeType>Public</ScopeType>
+  </RootScope>
+  <UserActions xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:anyType z:Ref="i3" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i6" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i8" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i10" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+  </UserActions>
+  <Version>1</Version>
+</Recording>

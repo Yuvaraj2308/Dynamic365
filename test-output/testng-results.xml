@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-14T16:04:55 IST" name="Default suite" finished-at="2023-09-14T16:05:45 IST" duration-ms="50060">
+    <groups>
+    </groups>
+    <test started-at="2023-09-14T16:04:55 IST" name="Default test" finished-at="2023-09-14T16:05:45 IST" duration-ms="50060">
+      <class name="genericLibraries.TestExecution">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:genericLibraries.TestExecution@10163d6]" started-at="2023-09-14T16:04:55 IST" name="openApp" finished-at="2023-09-14T16:04:56 IST" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:genericLibraries.TestExecution@10163d6]" started-at="2023-09-14T16:04:56 IST" name="Login" finished-at="2023-09-14T16:05:36 IST" duration-ms="39968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="execution()[pri:0, instance:genericLibraries.TestExecution@10163d6]" started-at="2023-09-14T16:05:36 IST" name="execution" finished-at="2023-09-14T16:05:45 IST" duration-ms="8377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execution -->
+      </class> <!-- genericLibraries.TestExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recording xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Client.ServerForm.TaskRecording">
+  <CanonicalId>87899c8e-9060-4332-9b35-7cca52cbe9a3</CanonicalId>
+  <CurrentSequence>30</CurrentSequence>
+  <Description></Description>
+  <FormContexts xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>13307_CustFreeInvoice_892bdb93-4b15-48a8-a476-d251939056e4</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>CustFreeInvoice</ConfigurationOwnerName>
+            <ConfigurationScope>41</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>0</FormViewOptionType>
+            <MenuItemLabel>All free text invoices</MenuItemLabel>
+            <MenuItemName>CustFreeInvoiceListPage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>CustFreeInvoice</ConfigurationOwnerName>
+            <ConfigurationScope>41</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>1</FormViewOptionType>
+            <MenuItemLabel>All free text invoices</MenuItemLabel>
+            <MenuItemName>CustFreeInvoiceListPage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>13307_CustFreeInvoice_892bdb93-4b15-48a8-a476-d251939056e4</FormID>
+        <FormName>CustFreeInvoice</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>CustFreeInvoice</RecordingName>
+        <Sequence>4</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>14742_CustTableLookup_892bdb93-4b15-48a8-a476-d251939056e4</d2p1:Key>
+      <d2p1:Value>
+        <Annotations i:nil="true" />
+        <FormID>14742_CustTableLookup_892bdb93-4b15-48a8-a476-d251939056e4</FormID>
+        <FormName>CustTableLookup</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>CustTableLookup</RecordingName>
+        <Sequence>12</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+  </FormContexts>
+  <Name>Create a free text Invoice </Name>
+  <RootScope z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+    <CustomDescription i:nil="true" />
+    <Description i:nil="true" />
+    <Id>892bdb93-4b15-48a8-a476-d251939056e4</Id>
+    <Parent i:nil="true" />
+    <ParentSequence>0</ParentSequence>
+    <ScreenshotUri i:nil="true" />
+    <Sequence>0</Sequence>
+    <Children>
+      <Node z:Id="i2" i:type="Scope">
+        <CustomDescription i:nil="true" />
+        <Description></Description>
+        <Id>MenuItemcustfreeinvoicelistpage_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+        <Parent z:Ref="i1" />
+        <ParentSequence>0</ParentSequence>
+        <ScreenshotUri i:nil="true" />
+        <Sequence>1</Sequence>
+        <Children>
+          <Node z:Id="i3" i:type="MenuItemUserAction">
+            <CustomDescription i:nil="true" />
+            <Description>Go to Accounts receivable &gt; Invoices &gt; All free text invoices.</Description>
+            <Id>MenuItemcustfreeinvoicelistpage_892bdb93-4b15-48a8-a476-d251939056e4x2</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>2</Sequence>
+            <Annotations />
+            <GlobalId>c38ea407-1d07-46da-bc02-f43a68375272</GlobalId>
+            <SystemGenerated>false</SystemGenerated>
+            <MenuItemName>custfreeinvoicelistpage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <NavigationPath xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string>mainmenu</d7p1:string>
+              <d7p1:string>AccountsReceivable</d7p1:string>
+              <d7p1:string>Invoices</d7p1:string>
+            </NavigationPath>
+          </Node>
+          <Node z:Id="i4" i:type="Scope">
+            <CustomDescription i:nil="true" />
+            <Description></Description>
+            <Id>13307_CustFreeInvoice_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>3</Sequence>
+            <Children>
+              <Node z:Id="i5" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>14543_0Click_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>5</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>6</Sequence>
+                <Children>
+                  <Node z:Id="i6" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click New.</Description>
+                    <Id>14543_0Click_892bdb93-4b15-48a8-a476-d251939056e4x7</Id>
+                    <Parent z:Ref="i5" />
+                    <ParentSequence>6</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>7</Sequence>
+                    <Annotations />
+                    <GlobalId>7829ce53-59c3-4f5f-a856-7973dd052248</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>New</ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>13307_CustFreeInvoice_892bdb93-4b15-48a8-a476-d251939056e4</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>Click</CommandName>
+                    <ControlName>SystemDefinedNewButton</ControlName>
+                    <ControlType>CommandButton</ControlType>
+                    <LabelId i:nil="true" />
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId>260</TaskId>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>SystemDefinedNewButton_Click</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i7" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description i:nil="true" />
+                <Id>14591RequestPopup_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>9</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>10</Sequence>
+                <Children>
+                  <Node z:Id="i8" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>In the Customer account field, enter or select a value.</Description>
+                    <Id>14591RequestPopup_892bdb93-4b15-48a8-a476-d251939056e4x11</Id>
+                    <Parent z:Ref="i7" />
+                    <ParentSequence>10</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>11</Sequence>
+                    <Annotations>
+                      <Annotation i:type="CanonicalActionAnnotation">
+                        <CanonicalUserAction z:Id="i9" i:type="PropertyUserAction">
+                          <CustomDescription i:nil="true" />
+                          <Description i:nil="true" />
+                          <Id i:nil="true" />
+                          <Parent i:nil="true" />
+                          <ParentSequence>0</ParentSequence>
+                          <ScreenshotUri i:nil="true" />
+                          <Sequence>0</Sequence>
+                          <Annotations>
+                            <Annotation i:type="LookupAnnotation">
+                              <ParentFormName>CustFreeInvoice</ParentFormName>
+                              <ReferenceDataSource i:nil="true" />
+                              <TableName>CustTable</TableName>
+                            </Annotation>
+                          </Annotations>
+                          <GlobalId>9558e790-5cb1-444b-b64e-fbcd32488704</GlobalId>
+                          <SystemGenerated>false</SystemGenerated>
+                          <ControlLabel>Customer account</ControlLabel>
+                          <ControlLabelId>@SYS7149</ControlLabelId>
+                          <FormId>13307_CustFreeInvoice_892bdb93-4b15-48a8-a476-d251939056e4</FormId>
+                          <ListContext i:nil="true" />
+                          <RowIndex i:nil="true" />
+                          <BoundDataSource>CustInvoiceTable</BoundDataSource>
+                          <BoundProperty>OrderAccount</BoundProperty>
+                          <ControlName>CVHeader_OrderAccount</ControlName>
+                          <ControlType>Input</ControlType>
+                          <IsReference>false</IsReference>
+                          <LabelId i:nil="true" />
+                          <PropertyName>Value</PropertyName>
+                          <UserActionType>Input</UserActionType>
+                          <Value>US-001</Value>
+                          <ValueLabel i:nil="true" />
+                        </CanonicalUserAction>
+                      </Annotation>
+                    </Annotations>
+                    <GlobalId>54aabec6-332e-47da-9088-d4b01eac7f96</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>Customer account</ControlLabel>
+                    <ControlLabelId>@SYS7149</ControlLabelId>
+                    <FormId>13307_CustFreeInvoice_892bdb93-4b15-48a8-a476-d251939056e4</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>RequestPopup</CommandName>
+                    <ControlName>CVHeader_OrderAccount</ControlName>
+                    <ControlType>Input</ControlType>
+                    <LabelId>@SysTaskRecorder:SetValueFromLookUp</LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId i:nil="true" />
+                  </Node>
+                  <Node z:Id="i10" i:type="Scope">
+                    <CustomDescription i:nil="true" />
+                    <Description></Description>
+                    <Id>14742_CustTableLookup_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+                    <Parent z:Ref="i7" />
+                    <ParentSequence>10</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>13</Sequence>
+                    <Children>
+                      <Node z:Id="i11" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>15370ChangeSelectedIndexInCache_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+                        <Parent z:Ref="i10" />
+                        <ParentSequence>14</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>15</Sequence>
+                        <Children>
+                          <Node z:Id="i12" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the list, select row 6.</Description>
+                            <Id>15370ChangeSelectedIndexInCache_892bdb93-4b15-48a8-a476-d251939056e4x16</Id>
+                            <Parent z:Ref="i11" />
+                            <ParentSequence>15</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>16</Sequence>
+                            <Annotations>
+                              <Annotation i:type="TaskGuideAnnotation">
+                                <Description i:nil="true" />
+                                <ExampleText i:nil="true" />
+                                <GlobalId i:nil="true" />
+                                <Hidden>true</Hidden>
+                                <RecordingValueType>Preferred</RecordingValueType>
+                                <Title i:nil="true" />
+                              </Annotation>
+                            </Annotations>
+                            <GlobalId>16c0e5e9-41ce-41cb-baf2-ba64cef30077</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel></ControlLabel>
+                            <ControlLabelId></ControlLabelId>
+                            <FormId>14742_CustTableLookup_892bdb93-4b15-48a8-a476-d251939056e4</FormId>
+                            <ListContext>Grid</ListContext>
+                            <RowIndex i:nil="true" />
+                            <Arguments>
+                              <CommandArgument>
+                                <IsReference>false</IsReference>
+                                <Value>6</Value>
+                              </CommandArgument>
+                              <CommandArgument>
+                                <IsReference>false</IsReference>
+                                <Value>4</Value>
+                              </CommandArgument>
+                              <CommandArgument>
+                                <IsReference>false</IsReference>
+                                <Value>1</Value>
+                              </CommandArgument>
+                              <CommandArgument>
+                                <IsReference>false</IsReference>
+                                <Value>first</Value>
+                              </CommandArgument>
+                            </Arguments>
+                            <CommandName>ChangeSelectedIndexInCache</CommandName>
+                            <ControlName>Grid</ControlName>
+                            <ControlType>Grid</ControlType>
+                            <LabelId></LabelId>
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>Grid_ChangeSelectedIndexInCache</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i13" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>15370NavigationAction_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+                        <Parent z:Ref="i10" />
+                        <ParentSequence>14</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>17</Sequence>
+                        <Children>
+                          <Node z:Id="i14" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the list, click the link in the selected row.</Description>
+                            <Id>15370NavigationAction_892bdb93-4b15-48a8-a476-d251939056e4x18</Id>
+                            <Parent z:Ref="i13" />
+                            <ParentSequence>17</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>18</Sequence>
+                            <Annotations>
+                              <Annotation i:type="TaskGuideAnnotation">
+                                <Description i:nil="true" />
+                                <ExampleText i:nil="true" />
+                                <GlobalId i:nil="true" />
+                                <Hidden>true</Hidden>
+                                <RecordingValueType>Preferred</RecordingValueType>
+                                <Title i:nil="true" />
+                              </Annotation>
+                            </Annotations>
+                            <GlobalId>c314fa00-8df1-4340-a8b0-b7fab30c48d3</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel></ControlLabel>
+                            <ControlLabelId></ControlLabelId>
+                            <FormId>14742_CustTableLookup_892bdb93-4b15-48a8-a476-d251939056e4</FormId>
+                            <ListContext>Grid</ListContext>
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>NavigationAction</CommandName>
+                            <ControlName>Grid</ControlName>
+                            <ControlType>Grid</ControlType>
+                            <LabelId></LabelId>
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>Grid_NavigationAction</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                    </Children>
+                    <IsForm>true</IsForm>
+                    <IsStepGroup>false</IsStepGroup>
+                    <Name>CustTableLookup</Name>
+                    <ScopeType>Private</ScopeType>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>true</IsStepGroup>
+                <Name>CVHeader_OrderAccount_RequestPopup</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i15" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>14629MarkActiveRow_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>22</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>23</Sequence>
+                <Children>
+                  <Node z:Id="i16" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>In the list, mark the selected row.</Description>
+                    <Id>14629MarkActiveRow_892bdb93-4b15-48a8-a476-d251939056e4x24</Id>
+                    <Parent z:Ref="i15" />
+                    <ParentSequence>23</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>24</Sequence>
+                    <Annotations />
+                    <GlobalId>bb07fe22-4ec6-4026-8f86-ef82b069e35a</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel></ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>13307_CustFreeInvoice_892bdb93-4b15-48a8-a476-d251939056e4</FormId>
+                    <ListContext>LinesGrid</ListContext>
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>MarkActiveRow</CommandName>
+                    <ControlName>LinesGrid</ControlName>
+                    <ControlType>Grid</ControlType>
+                    <LabelId></LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId i:nil="true" />
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>LinesGrid_MarkActiveRow</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i17" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>CustInvoiceLine_LedgerAccount_Value_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>25</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>26</Sequence>
+                <Children>
+                  <Node z:Id="i18" i:type="PropertyUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>In the Main account field, specify the desired values.</Description>
+                    <Id>CustInvoiceLine_LedgerAccount_Value_892bdb93-4b15-48a8-a476-d251939056e4x27</Id>
+                    <Parent z:Ref="i17" />
+                    <ParentSequence>26</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>27</Sequence>
+                    <Annotations />
+                    <GlobalId>0b21808e-8faf-47ae-9552-37a28aea90e4</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>Main account</ControlLabel>
+                    <ControlLabelId>@SYS129344</ControlLabelId>
+                    <FormId>13307_CustFreeInvoice_892bdb93-4b15-48a8-a476-d251939056e4</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <BoundDataSource i:nil="true" />
+                    <BoundProperty i:nil="true" />
+                    <ControlName>CustInvoiceLine_LedgerAccount</ControlName>
+                    <ControlType>SegmentedEntry</ControlType>
+                    <IsReference>false</IsReference>
+                    <LabelId>@Dimension:SegmentedEntry_Value</LabelId>
+                    <PropertyName>Value</PropertyName>
+                    <UserActionType>Input</UserActionType>
+                    <Value>112140</Value>
+                    <ValueLabel i:nil="true" />
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>CustInvoiceLine_LedgerAccount_Value</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i19" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>14719_0Click_892bdb93-4b15-48a8-a476-d251939056e4</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>28</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>29</Sequence>
+                <Children>
+                  <Node z:Id="i20" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click Save.</Description>
+                    <Id>14719_0Click_892bdb93-4b15-48a8-a476-d251939056e4x30</Id>
+                    <Parent z:Ref="i19" />
+                    <ParentSequence>29</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>30</Sequence>
+                    <Annotations />
+                    <GlobalId>e394a8b7-643a-4772-b2f9-5f3879754541</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>Save</ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>13307_CustFreeInvoice_892bdb93-4b15-48a8-a476-d251939056e4</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>Click</CommandName>
+                    <ControlName>SystemDefinedSaveButton</ControlName>
+                    <ControlType>CommandButton</ControlType>
+                    <LabelId i:nil="true" />
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId>272</TaskId>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>SystemDefinedSaveButton_Click</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+            </Children>
+            <IsForm>true</IsForm>
+            <IsStepGroup>false</IsStepGroup>
+            <Name>CustFreeInvoice</Name>
+            <ScopeType>Public</ScopeType>
+          </Node>
+        </Children>
+        <IsForm>false</IsForm>
+        <IsStepGroup>false</IsStepGroup>
+        <Name>MenuItem_custfreeinvoicelistpage</Name>
+        <ScopeType>Private</ScopeType>
+      </Node>
+    </Children>
+    <IsForm>false</IsForm>
+    <IsStepGroup>false</IsStepGroup>
+    <Name>Create a free text Invoice </Name>
+    <ScopeType>Public</ScopeType>
+  </RootScope>
+  <UserActions xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:anyType z:Ref="i3" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i6" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i8" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i12" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i14" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i16" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i18" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i20" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+  </UserActions>
+  <Version>1</Version>
+</Recording>

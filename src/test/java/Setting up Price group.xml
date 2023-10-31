@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recording xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Client.ServerForm.TaskRecording">
+  <CanonicalId>b6d01818-7b9b-4851-93a2-353702b01cd5</CanonicalId>
+  <CurrentSequence>52</CurrentSequence>
+  <Description></Description>
+  <FormContexts xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>CustTable</ConfigurationOwnerName>
+            <ConfigurationScope>41</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>0</FormViewOptionType>
+            <MenuItemLabel>All customers</MenuItemLabel>
+            <MenuItemName>CustTableListPage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>CustTable</ConfigurationOwnerName>
+            <ConfigurationScope>41</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>1</FormViewOptionType>
+            <MenuItemLabel>All customers</MenuItemLabel>
+            <MenuItemName>CustTableListPage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormID>
+        <FormName>CustTable</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>CustTable</RecordingName>
+        <Sequence>4</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>8306_PriceDiscGroup_fbb58557-44f4-45a4-a736-f4bce2902944</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>PriceDiscGroup</ConfigurationOwnerName>
+            <ConfigurationScope>41</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>0</FormViewOptionType>
+            <MenuItemLabel>Price/discount groups</MenuItemLabel>
+            <MenuItemName>PriceDiscGroup</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>8306_PriceDiscGroup_fbb58557-44f4-45a4-a736-f4bce2902944</FormID>
+        <FormName>PriceDiscGroup</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>PriceDiscGroup</RecordingName>
+        <Sequence>20</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>8378_Discount_PriceGroup_Lookup_fbb58557-44f4-45a4-a736-f4bce2902944</d2p1:Key>
+      <d2p1:Value>
+        <Annotations i:nil="true" />
+        <FormID>8378_Discount_PriceGroup_Lookup_fbb58557-44f4-45a4-a736-f4bce2902944</FormID>
+        <FormName></FormName>
+        <HasMetadata>false</HasMetadata>
+        <RecordingName>Discount_PriceGroup_Lookup</RecordingName>
+        <Sequence>45</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+  </FormContexts>
+  <Name>Setting up Price group</Name>
+  <RootScope z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+    <CustomDescription i:nil="true" />
+    <Description i:nil="true" />
+    <Id>fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+    <Parent i:nil="true" />
+    <ParentSequence>0</ParentSequence>
+    <ScreenshotUri i:nil="true" />
+    <Sequence>0</Sequence>
+    <Children>
+      <Node z:Id="i2" i:type="Scope">
+        <CustomDescription i:nil="true" />
+        <Description></Description>
+        <Id>MenuItemcusttablelistpage_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+        <Parent z:Ref="i1" />
+        <ParentSequence>0</ParentSequence>
+        <ScreenshotUri i:nil="true" />
+        <Sequence>1</Sequence>
+        <Children>
+          <Node z:Id="i3" i:type="MenuItemUserAction">
+            <CustomDescription i:nil="true" />
+            <Description>Go to Sales and marketing &gt; Customers &gt; All customers.</Description>
+            <Id>MenuItemcusttablelistpage_fbb58557-44f4-45a4-a736-f4bce2902944x2</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>2</Sequence>
+            <Annotations />
+            <GlobalId>4f334735-894e-4ece-bf6d-30fff9379d9f</GlobalId>
+            <SystemGenerated>false</SystemGenerated>
+            <MenuItemName>custtablelistpage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <NavigationPath xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string>mainmenu</d7p1:string>
+              <d7p1:string>SalesAndMarketing</d7p1:string>
+              <d7p1:string>Customers</d7p1:string>
+            </NavigationPath>
+          </Node>
+          <Node z:Id="i4" i:type="Scope">
+            <CustomDescription i:nil="true" />
+            <Description></Description>
+            <Id>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>3</Sequence>
+            <Children>
+              <Node z:Id="i5" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>1947ChangeSelectedIndexInCache_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>5</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>6</Sequence>
+                <Children>
+                  <Node z:Id="i6" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>In the list, find and select the desired record.</Description>
+                    <Id>1947ChangeSelectedIndexInCache_fbb58557-44f4-45a4-a736-f4bce2902944x7</Id>
+                    <Parent z:Ref="i5" />
+                    <ParentSequence>6</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>7</Sequence>
+                    <Annotations />
+                    <GlobalId>6e34637c-cfe7-4870-ac27-1208a365947f</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel></ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                    <ListContext>Grid</ListContext>
+                    <RowIndex i:nil="true" />
+                    <Arguments>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>4</Value>
+                      </CommandArgument>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>0</Value>
+                      </CommandArgument>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>1</Value>
+                      </CommandArgument>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>first</Value>
+                      </CommandArgument>
+                    </Arguments>
+                    <CommandName>ChangeSelectedIndexInCache</CommandName>
+                    <ControlName>Grid</ControlName>
+                    <ControlType>Grid</ControlType>
+                    <LabelId></LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId i:nil="true" />
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>Grid_ChangeSelectedIndexInCache</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i7" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>1947NavigationAction_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>5</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>8</Sequence>
+                <Children>
+                  <Node z:Id="i8" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>In the list, click the link in the selected row.</Description>
+                    <Id>1947NavigationAction_fbb58557-44f4-45a4-a736-f4bce2902944x9</Id>
+                    <Parent z:Ref="i7" />
+                    <ParentSequence>8</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>9</Sequence>
+                    <Annotations />
+                    <GlobalId>d943a096-de06-4c45-b0ca-03d17cca645a</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel></ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                    <ListContext>Grid</ListContext>
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>NavigationAction</CommandName>
+                    <ControlName>Grid</ControlName>
+                    <ControlType>Grid</ControlType>
+                    <LabelId></LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId i:nil="true" />
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>Grid_NavigationAction</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i9" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>1809_0Click_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>10</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>11</Sequence>
+                <Children>
+                  <Node z:Id="i10" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click Edit.</Description>
+                    <Id>1809_0Click_fbb58557-44f4-45a4-a736-f4bce2902944x12</Id>
+                    <Parent z:Ref="i9" />
+                    <ParentSequence>11</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>12</Sequence>
+                    <Annotations />
+                    <GlobalId>9eb043c7-8533-4609-b53b-f4a8caed7604</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>Edit</ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>Click</CommandName>
+                    <ControlName>SystemDefinedViewEditButton</ControlName>
+                    <ControlType>CommandButton</ControlType>
+                    <LabelId i:nil="true" />
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId>4471</TaskId>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>SystemDefinedViewEditButton_Click</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i11" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>1919ExpandedChanged_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>13</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>14</Sequence>
+                <Children>
+                  <Node z:Id="i12" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Expand the Sales order defaults section.</Description>
+                    <Id>1919ExpandedChanged_fbb58557-44f4-45a4-a736-f4bce2902944x15</Id>
+                    <Parent z:Ref="i11" />
+                    <ParentSequence>14</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>15</Sequence>
+                    <Annotations />
+                    <GlobalId>ef41104d-5019-4cd3-a75a-8820ef60b5dd</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>Sales order defaults</ControlLabel>
+                    <ControlLabelId>@SYS340345</ControlLabelId>
+                    <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments>
+                      <CommandArgument>
+                        <IsReference>false</IsReference>
+                        <Value>0</Value>
+                      </CommandArgument>
+                    </Arguments>
+                    <CommandName>ExpandedChanged</CommandName>
+                    <ControlName>TabPageSales</ControlName>
+                    <ControlType>SectionPage</ControlType>
+                    <LabelId>@SysTaskRecorder:SectionPage_ExpandedChanged_Expand</LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId i:nil="true" />
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>TabPageSales_ExpandedChanged</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i13" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>8293_0ExecuteHyperlink_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>16</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>17</Sequence>
+                <Children>
+                  <Node z:Id="i14" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click to follow the link in the Price field.</Description>
+                    <Id>8293_0ExecuteHyperlink_fbb58557-44f4-45a4-a736-f4bce2902944x18</Id>
+                    <Parent z:Ref="i13" />
+                    <ParentSequence>17</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>18</Sequence>
+                    <Annotations />
+                    <GlobalId>ddd39843-76b0-4bb1-bce2-185316f23919</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>Price</ControlLabel>
+                    <ControlLabelId>@SYS316405</ControlLabelId>
+                    <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>ExecuteHyperlink</CommandName>
+                    <ControlName>Discount_PriceGroup</ControlName>
+                    <ControlType>Input</ControlType>
+                    <LabelId i:nil="true" />
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId></TaskId>
+                  </Node>
+                  <Node z:Id="i15" i:type="Scope">
+                    <CustomDescription i:nil="true" />
+                    <Description></Description>
+                    <Id>8306_PriceDiscGroup_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                    <Parent z:Ref="i13" />
+                    <ParentSequence>17</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>19</Sequence>
+                    <Children>
+                      <Node z:Id="i16" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>8331_0Click_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                        <Parent z:Ref="i15" />
+                        <ParentSequence>21</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>22</Sequence>
+                        <Children>
+                          <Node z:Id="i17" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>Click New.</Description>
+                            <Id>8331_0Click_fbb58557-44f4-45a4-a736-f4bce2902944x23</Id>
+                            <Parent z:Ref="i16" />
+                            <ParentSequence>22</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>23</Sequence>
+                            <Annotations />
+                            <GlobalId>ea0eebc5-22de-470f-aa25-f088515888ee</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>New</ControlLabel>
+                            <ControlLabelId></ControlLabelId>
+                            <FormId>8306_PriceDiscGroup_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>Click</CommandName>
+                            <ControlName>SystemDefinedNewButton</ControlName>
+                            <ControlType>CommandButton</ControlType>
+                            <LabelId i:nil="true" />
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId>260</TaskId>
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>SystemDefinedNewButton_Click</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i18" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>8343Value_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                        <Parent z:Ref="i15" />
+                        <ParentSequence>24</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>25</Sequence>
+                        <Children>
+                          <Node z:Id="i19" i:type="PropertyUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the Price groups field, type a value.</Description>
+                            <Id>8343Value_fbb58557-44f4-45a4-a736-f4bce2902944x26</Id>
+                            <Parent z:Ref="i18" />
+                            <ParentSequence>25</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>26</Sequence>
+                            <Annotations />
+                            <GlobalId>8147aaab-25ba-4ff9-afe3-d0b826ad27eb</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Price groups</ControlLabel>
+                            <ControlLabelId>@SYS4707</ControlLabelId>
+                            <FormId>8306_PriceDiscGroup_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                            <ListContext>Grid</ListContext>
+                            <RowIndex i:nil="true" />
+                            <BoundDataSource>PriceDiscGroup</BoundDataSource>
+                            <BoundProperty>GroupId</BoundProperty>
+                            <ControlName>PriceDiscGroup_Group</ControlName>
+                            <ControlType>Input</ControlType>
+                            <IsReference>false</IsReference>
+                            <LabelId i:nil="true" />
+                            <PropertyName>Value</PropertyName>
+                            <UserActionType>Input</UserActionType>
+                            <Value>10</Value>
+                            <ValueLabel i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>PriceDiscGroup_Group_Value</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i20" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>8344Value_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                        <Parent z:Ref="i15" />
+                        <ParentSequence>27</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>28</Sequence>
+                        <Children>
+                          <Node z:Id="i21" i:type="PropertyUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the Name field, type a value.</Description>
+                            <Id>8344Value_fbb58557-44f4-45a4-a736-f4bce2902944x29</Id>
+                            <Parent z:Ref="i20" />
+                            <ParentSequence>28</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>29</Sequence>
+                            <Annotations />
+                            <GlobalId>cb5bbb14-5de3-49a1-80ea-de4f94b514df</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Name</ControlLabel>
+                            <ControlLabelId>@SYS7399</ControlLabelId>
+                            <FormId>8306_PriceDiscGroup_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                            <ListContext>Grid</ListContext>
+                            <RowIndex i:nil="true" />
+                            <BoundDataSource>PriceDiscGroup</BoundDataSource>
+                            <BoundProperty>Name</BoundProperty>
+                            <ControlName>PriceDiscGroup_Name</ControlName>
+                            <ControlType>Input</ControlType>
+                            <IsReference>false</IsReference>
+                            <LabelId i:nil="true" />
+                            <PropertyName>Value</PropertyName>
+                            <UserActionType>Input</UserActionType>
+                            <Value>Dummy</Value>
+                            <ValueLabel i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>PriceDiscGroup_Name_Value</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i22" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>8329_0Click_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                        <Parent z:Ref="i15" />
+                        <ParentSequence>30</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>31</Sequence>
+                        <Children>
+                          <Node z:Id="i23" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>Click Save.</Description>
+                            <Id>8329_0Click_fbb58557-44f4-45a4-a736-f4bce2902944x32</Id>
+                            <Parent z:Ref="i22" />
+                            <ParentSequence>31</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>32</Sequence>
+                            <Annotations />
+                            <GlobalId>f72574a7-ce7e-4cc8-8207-f0d9a80675e5</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Save</ControlLabel>
+                            <ControlLabelId></ControlLabelId>
+                            <FormId>8306_PriceDiscGroup_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>Click</CommandName>
+                            <ControlName>SystemDefinedSaveButton</ControlName>
+                            <ControlType>CommandButton</ControlType>
+                            <LabelId i:nil="true" />
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId>272</TaskId>
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>SystemDefinedSaveButton_Click</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i24" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>8306RequestClose_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                        <Parent z:Ref="i15" />
+                        <ParentSequence>19</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>35</Sequence>
+                        <Children>
+                          <Node z:Id="i25" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>Close the page.</Description>
+                            <Id>8306RequestClose_fbb58557-44f4-45a4-a736-f4bce2902944x36</Id>
+                            <Parent z:Ref="i24" />
+                            <ParentSequence>35</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>36</Sequence>
+                            <Annotations />
+                            <GlobalId>add0c4dd-7276-4b01-9a52-2ece3384851c</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel></ControlLabel>
+                            <ControlLabelId></ControlLabelId>
+                            <FormId>8306_PriceDiscGroup_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>RequestClose</CommandName>
+                            <ControlName></ControlName>
+                            <ControlType></ControlType>
+                            <LabelId>@SysTaskRecorder:CloseForm</LabelId>
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>RequestClose</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                    </Children>
+                    <IsForm>true</IsForm>
+                    <IsStepGroup>false</IsStepGroup>
+                    <Name>PriceDiscGroup</Name>
+                    <ScopeType>Public</ScopeType>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>Discount_PriceGroup_ExecuteHyperlink</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i26" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>273_0OpenGridView_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>3</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>37</Sequence>
+                <Children>
+                  <Node z:Id="i27" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click the form caption.</Description>
+                    <Id>273_0OpenGridView_fbb58557-44f4-45a4-a736-f4bce2902944x38</Id>
+                    <Parent z:Ref="i26" />
+                    <ParentSequence>37</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>38</Sequence>
+                    <Annotations />
+                    <GlobalId>e3f9d351-dd40-4df9-98f8-ab1842986d04</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel i:nil="true" />
+                    <ControlLabelId i:nil="true" />
+                    <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>OpenGridView</CommandName>
+                    <ControlName i:nil="true" />
+                    <ControlType i:nil="true" />
+                    <LabelId>@SysTaskRecorder:OpenGridView</LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId></TaskId>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>OpenGridView</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i28" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>1947NavigationAction_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>39</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>40</Sequence>
+                <Children>
+                  <Node z:Id="i29" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>In the list, click the link in the selected row.</Description>
+                    <Id>1947NavigationAction_fbb58557-44f4-45a4-a736-f4bce2902944x41</Id>
+                    <Parent z:Ref="i28" />
+                    <ParentSequence>40</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>41</Sequence>
+                    <Annotations />
+                    <GlobalId>f5954ca5-2923-489d-b504-4a1b76eb884c</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel></ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                    <ListContext>Grid</ListContext>
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>NavigationAction</CommandName>
+                    <ControlName>Grid</ControlName>
+                    <ControlType>Grid</ControlType>
+                    <LabelId></LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId i:nil="true" />
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>Grid_NavigationAction</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i30" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description i:nil="true" />
+                <Id>8293RequestPopup_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>42</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>43</Sequence>
+                <Children>
+                  <Node z:Id="i31" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>In the Price field, enter or select a value.</Description>
+                    <Id>8293RequestPopup_fbb58557-44f4-45a4-a736-f4bce2902944x44</Id>
+                    <Parent z:Ref="i30" />
+                    <ParentSequence>43</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>44</Sequence>
+                    <Annotations>
+                      <Annotation i:type="CanonicalActionAnnotation">
+                        <CanonicalUserAction z:Id="i32" i:type="PropertyUserAction">
+                          <CustomDescription i:nil="true" />
+                          <Description i:nil="true" />
+                          <Id i:nil="true" />
+                          <Parent i:nil="true" />
+                          <ParentSequence>0</ParentSequence>
+                          <ScreenshotUri i:nil="true" />
+                          <Sequence>0</Sequence>
+                          <Annotations>
+                            <Annotation i:type="LookupAnnotation">
+                              <ParentFormName>CustTable</ParentFormName>
+                              <ReferenceDataSource i:nil="true" />
+                              <TableName>PriceDiscGroup</TableName>
+                            </Annotation>
+                          </Annotations>
+                          <GlobalId>53a61f13-1e75-4261-8d7e-a7bb8688a083</GlobalId>
+                          <SystemGenerated>false</SystemGenerated>
+                          <ControlLabel>Price</ControlLabel>
+                          <ControlLabelId>@SYS316405</ControlLabelId>
+                          <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                          <ListContext i:nil="true" />
+                          <RowIndex i:nil="true" />
+                          <BoundDataSource>CustTable</BoundDataSource>
+                          <BoundProperty>PriceGroup</BoundProperty>
+                          <ControlName>Discount_PriceGroup</ControlName>
+                          <ControlType>Input</ControlType>
+                          <IsReference>false</IsReference>
+                          <LabelId i:nil="true" />
+                          <PropertyName>Value</PropertyName>
+                          <UserActionType>Input</UserActionType>
+                          <Value>10</Value>
+                          <ValueLabel i:nil="true" />
+                        </CanonicalUserAction>
+                      </Annotation>
+                    </Annotations>
+                    <GlobalId>f0c53569-8fe3-45a9-8796-07311e805de7</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>Price</ControlLabel>
+                    <ControlLabelId>@SYS316405</ControlLabelId>
+                    <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>RequestPopup</CommandName>
+                    <ControlName>Discount_PriceGroup</ControlName>
+                    <ControlType>Input</ControlType>
+                    <LabelId>@SysTaskRecorder:SetValueFromLookUp</LabelId>
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId i:nil="true" />
+                  </Node>
+                  <Node z:Id="i33" i:type="Scope">
+                    <CustomDescription i:nil="true" />
+                    <Description></Description>
+                    <Id>8378_Discount_PriceGroup_Lookup_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                    <Parent z:Ref="i30" />
+                    <ParentSequence>43</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>46</Sequence>
+                    <Children>
+                      <Node z:Id="i34" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>8390NavigationAction_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                        <Parent z:Ref="i33" />
+                        <ParentSequence>47</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>48</Sequence>
+                        <Children>
+                          <Node z:Id="i35" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the list, click the link in the selected row.</Description>
+                            <Id>8390NavigationAction_fbb58557-44f4-45a4-a736-f4bce2902944x49</Id>
+                            <Parent z:Ref="i34" />
+                            <ParentSequence>48</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>49</Sequence>
+                            <Annotations>
+                              <Annotation i:type="TaskGuideAnnotation">
+                                <Description i:nil="true" />
+                                <ExampleText i:nil="true" />
+                                <GlobalId i:nil="true" />
+                                <Hidden>true</Hidden>
+                                <RecordingValueType>Preferred</RecordingValueType>
+                                <Title i:nil="true" />
+                              </Annotation>
+                            </Annotations>
+                            <GlobalId>aefdd152-2e33-45cd-94dd-36cd7c771317</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel></ControlLabel>
+                            <ControlLabelId></ControlLabelId>
+                            <FormId>8378_Discount_PriceGroup_Lookup_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                            <ListContext>Grid</ListContext>
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>NavigationAction</CommandName>
+                            <ControlName>Grid</ControlName>
+                            <ControlType>Grid</ControlType>
+                            <LabelId></LabelId>
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>Grid_NavigationAction</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                    </Children>
+                    <IsForm>true</IsForm>
+                    <IsStepGroup>false</IsStepGroup>
+                    <Name>Discount_PriceGroup_Lookup</Name>
+                    <ScopeType>Private</ScopeType>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>true</IsStepGroup>
+                <Name>Discount_PriceGroup_RequestPopup</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+              <Node z:Id="i36" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>8276_0Click_fbb58557-44f4-45a4-a736-f4bce2902944</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>50</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>51</Sequence>
+                <Children>
+                  <Node z:Id="i37" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click Save.</Description>
+                    <Id>8276_0Click_fbb58557-44f4-45a4-a736-f4bce2902944x52</Id>
+                    <Parent z:Ref="i36" />
+                    <ParentSequence>51</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>52</Sequence>
+                    <Annotations />
+                    <GlobalId>c12ab48b-878a-4c9a-9cc8-2ca800135ce6</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>Save</ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>273_CustTable_fbb58557-44f4-45a4-a736-f4bce2902944</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>Click</CommandName>
+                    <ControlName>SystemDefinedSaveButton</ControlName>
+                    <ControlType>CommandButton</ControlType>
+                    <LabelId i:nil="true" />
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId>272</TaskId>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>SystemDefinedSaveButton_Click</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+            </Children>
+            <IsForm>true</IsForm>
+            <IsStepGroup>false</IsStepGroup>
+            <Name>CustTable</Name>
+            <ScopeType>Public</ScopeType>
+          </Node>
+        </Children>
+        <IsForm>false</IsForm>
+        <IsStepGroup>false</IsStepGroup>
+        <Name>MenuItem_custtablelistpage</Name>
+        <ScopeType>Private</ScopeType>
+      </Node>
+    </Children>
+    <IsForm>false</IsForm>
+    <IsStepGroup>false</IsStepGroup>
+    <Name>Setting up Price group</Name>
+    <ScopeType>Public</ScopeType>
+  </RootScope>
+  <UserActions xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:anyType z:Ref="i3" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i6" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i8" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i10" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i12" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i14" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i17" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i19" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i21" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i23" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i25" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i27" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i29" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i31" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i35" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i37" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+  </UserActions>
+  <Version>1</Version>
+</Recording>

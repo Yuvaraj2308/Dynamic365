@@ -1,0 +1,1115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recording xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Client.ServerForm.TaskRecording">
+  <CanonicalId>e82ad7ae-2ccc-417d-8514-fef102609149</CanonicalId>
+  <CurrentSequence>71</CurrentSequence>
+  <Description></Description>
+  <FormContexts xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>231_EcoResProductListPage_03cd9681-1170-4040-8cc3-2af1552492c0</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>EcoResProductListPage</ConfigurationOwnerName>
+            <ConfigurationScope>10</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>0</FormViewOptionType>
+            <MenuItemLabel>Products</MenuItemLabel>
+            <MenuItemName>EcoResDistinctProductListPage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>231_EcoResProductListPage_03cd9681-1170-4040-8cc3-2af1552492c0</FormID>
+        <FormName>EcoResProductListPage</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>EcoResProductListPage</RecordingName>
+        <Sequence>4</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>1963_EcoResProductCreate_03cd9681-1170-4040-8cc3-2af1552492c0</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>EcoResProductCreate</ConfigurationOwnerName>
+            <ConfigurationScope>41</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>0</FormViewOptionType>
+            <MenuItemLabel>Product</MenuItemLabel>
+            <MenuItemName>EcoResProductCreate</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>1963_EcoResProductCreate_03cd9681-1170-4040-8cc3-2af1552492c0</FormID>
+        <FormName>EcoResProductCreate</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>EcoResProductCreate</RecordingName>
+        <Sequence>10</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>2020_EcoResCategorySingleLookup_03cd9681-1170-4040-8cc3-2af1552492c0</d2p1:Key>
+      <d2p1:Value>
+        <Annotations i:nil="true" />
+        <FormID>2020_EcoResCategorySingleLookup_03cd9681-1170-4040-8cc3-2af1552492c0</FormID>
+        <FormName>EcoResCategorySingleLookup</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>EcoResCategorySingleLookup</RecordingName>
+        <Sequence>21</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>2435_EcoResProductDetails_03cd9681-1170-4040-8cc3-2af1552492c0</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName>EcoResProductDetails</ConfigurationOwnerName>
+            <ConfigurationScope>41</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>1</FormViewOptionType>
+            <MenuItemLabel>Product details</MenuItemLabel>
+            <MenuItemName>EcoResProductDetails</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>2435_EcoResProductDetails_03cd9681-1170-4040-8cc3-2af1552492c0</FormID>
+        <FormName>EcoResProductDetails</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>EcoResProductDetails</RecordingName>
+        <Sequence>32</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>3358_EcoResProductInventoryDimensionGroups_03cd9681-1170-4040-8cc3-2af1552492c0</d2p1:Key>
+      <d2p1:Value>
+        <Annotations>
+          <Annotation i:type="FormAnnotation">
+            <ConfigurationOwnerName></ConfigurationOwnerName>
+            <ConfigurationScope>10</ConfigurationScope>
+            <FilterCommandName>ApplyFilters</FilterCommandName>
+            <FilterControlName>SystemDefinedFilterPane</FilterControlName>
+            <FormViewOptionType>0</FormViewOptionType>
+            <MenuItemLabel>Dimension groups</MenuItemLabel>
+            <MenuItemName>EcoResProductInventoryDimensionGroups</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <PublishedFromConfiguration>0</PublishedFromConfiguration>
+          </Annotation>
+        </Annotations>
+        <FormID>3358_EcoResProductInventoryDimensionGroups_03cd9681-1170-4040-8cc3-2af1552492c0</FormID>
+        <FormName>EcoResProductInventoryDimensionGroups</FormName>
+        <HasMetadata>true</HasMetadata>
+        <RecordingName>EcoResProductInventoryDimensionGroups</RecordingName>
+        <Sequence>37</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>3385_StorageDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</d2p1:Key>
+      <d2p1:Value>
+        <Annotations i:nil="true" />
+        <FormID>3385_StorageDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</FormID>
+        <FormName></FormName>
+        <HasMetadata>false</HasMetadata>
+        <RecordingName>StorageDimensionGroup_Lookup</RecordingName>
+        <Sequence>42</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+    <d2p1:KeyValueOfstringFormContextyaScvdpM>
+      <d2p1:Key>3417_TrackingDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</d2p1:Key>
+      <d2p1:Value>
+        <Annotations i:nil="true" />
+        <FormID>3417_TrackingDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</FormID>
+        <FormName></FormName>
+        <HasMetadata>false</HasMetadata>
+        <RecordingName>TrackingDimensionGroup_Lookup</RecordingName>
+        <Sequence>53</Sequence>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFormContextyaScvdpM>
+  </FormContexts>
+  <Name>DummyProduct</Name>
+  <RootScope z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+    <CustomDescription i:nil="true" />
+    <Description i:nil="true" />
+    <Id>03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+    <Parent i:nil="true" />
+    <ParentSequence>0</ParentSequence>
+    <ScreenshotUri i:nil="true" />
+    <Sequence>0</Sequence>
+    <Children>
+      <Node z:Id="i2" i:type="Scope">
+        <CustomDescription i:nil="true" />
+        <Description></Description>
+        <Id>MenuItemecoresdistinctproductlistpage_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+        <Parent z:Ref="i1" />
+        <ParentSequence>0</ParentSequence>
+        <ScreenshotUri i:nil="true" />
+        <Sequence>1</Sequence>
+        <Children>
+          <Node z:Id="i3" i:type="MenuItemUserAction">
+            <CustomDescription i:nil="true" />
+            <Description>Go to Product information management &gt; Products &gt; Products.</Description>
+            <Id>MenuItemecoresdistinctproductlistpage_03cd9681-1170-4040-8cc3-2af1552492c0x2</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>2</Sequence>
+            <Annotations />
+            <GlobalId>ffefea56-02db-43b9-b1b3-39fcb9cd538b</GlobalId>
+            <SystemGenerated>false</SystemGenerated>
+            <MenuItemName>ecoresdistinctproductlistpage</MenuItemName>
+            <MenuItemType>Display</MenuItemType>
+            <NavigationPath xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <d7p1:string>mainmenu</d7p1:string>
+              <d7p1:string>ProductInformationManagement</d7p1:string>
+              <d7p1:string>Products</d7p1:string>
+            </NavigationPath>
+          </Node>
+          <Node z:Id="i4" i:type="Scope">
+            <CustomDescription i:nil="true" />
+            <Description></Description>
+            <Id>231_EcoResProductListPage_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+            <Parent z:Ref="i2" />
+            <ParentSequence>1</ParentSequence>
+            <ScreenshotUri i:nil="true" />
+            <Sequence>3</Sequence>
+            <Children>
+              <Node z:Id="i5" i:type="Scope">
+                <CustomDescription i:nil="true" />
+                <Description></Description>
+                <Id>570_0Click_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                <Parent z:Ref="i4" />
+                <ParentSequence>6</ParentSequence>
+                <ScreenshotUri i:nil="true" />
+                <Sequence>7</Sequence>
+                <Children>
+                  <Node z:Id="i6" i:type="CommandUserAction">
+                    <CustomDescription i:nil="true" />
+                    <Description>Click New.</Description>
+                    <Id>570_0Click_03cd9681-1170-4040-8cc3-2af1552492c0x8</Id>
+                    <Parent z:Ref="i5" />
+                    <ParentSequence>7</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>8</Sequence>
+                    <Annotations />
+                    <GlobalId>9ed933f5-f9f4-437a-b046-6fd47caebf69</GlobalId>
+                    <SystemGenerated>false</SystemGenerated>
+                    <ControlLabel>New</ControlLabel>
+                    <ControlLabelId></ControlLabelId>
+                    <FormId>231_EcoResProductListPage_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                    <ListContext i:nil="true" />
+                    <RowIndex i:nil="true" />
+                    <Arguments />
+                    <CommandName>Click</CommandName>
+                    <ControlName>SystemDefinedNewButton</ControlName>
+                    <ControlType>CommandButton</ControlType>
+                    <LabelId i:nil="true" />
+                    <ReturnType>Void</ReturnType>
+                    <ReturnValue i:nil="true" />
+                    <TaskId>260</TaskId>
+                  </Node>
+                  <Node z:Id="i7" i:type="Scope">
+                    <CustomDescription i:nil="true" />
+                    <Description></Description>
+                    <Id>1963_EcoResProductCreate_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                    <Parent z:Ref="i5" />
+                    <ParentSequence>7</ParentSequence>
+                    <ScreenshotUri i:nil="true" />
+                    <Sequence>9</Sequence>
+                    <Children>
+                      <Node z:Id="i8" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>2003Value_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>11</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>12</Sequence>
+                        <Children>
+                          <Node z:Id="i9" i:type="PropertyUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the Product number field, type a value.</Description>
+                            <Id>2003Value_03cd9681-1170-4040-8cc3-2af1552492c0x13</Id>
+                            <Parent z:Ref="i8" />
+                            <ParentSequence>12</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>13</Sequence>
+                            <Annotations />
+                            <GlobalId>64ec16e1-80fe-4d36-ba39-e45bfa93fe6a</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Product number</ControlLabel>
+                            <ControlLabelId>@SYS133863</ControlLabelId>
+                            <FormId>1963_EcoResProductCreate_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <BoundDataSource></BoundDataSource>
+                            <BoundProperty></BoundProperty>
+                            <ControlName>Identification_ProductNumber</ControlName>
+                            <ControlType>Input</ControlType>
+                            <IsReference>false</IsReference>
+                            <LabelId i:nil="true" />
+                            <PropertyName>Value</PropertyName>
+                            <UserActionType>Input</UserActionType>
+                            <Value>p-101010</Value>
+                            <ValueLabel i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>Identification_ProductNumber_Value</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i10" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>2005Value_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>14</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>15</Sequence>
+                        <Children>
+                          <Node z:Id="i11" i:type="PropertyUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the Product name field, type a value.</Description>
+                            <Id>2005Value_03cd9681-1170-4040-8cc3-2af1552492c0x16</Id>
+                            <Parent z:Ref="i10" />
+                            <ParentSequence>15</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>16</Sequence>
+                            <Annotations />
+                            <GlobalId>5df44f69-c316-4992-ad3e-a79cc638b495</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Product name</ControlLabel>
+                            <ControlLabelId>@SYS133866</ControlLabelId>
+                            <FormId>1963_EcoResProductCreate_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <BoundDataSource></BoundDataSource>
+                            <BoundProperty></BoundProperty>
+                            <ControlName>Identification_Name</ControlName>
+                            <ControlType>Input</ControlType>
+                            <IsReference>false</IsReference>
+                            <LabelId i:nil="true" />
+                            <PropertyName>Value</PropertyName>
+                            <UserActionType>Input</UserActionType>
+                            <Value>Dummy Product</Value>
+                            <ValueLabel i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>Identification_Name_Value</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i12" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description i:nil="true" />
+                        <Id>2009RequestPopup_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>18</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>19</Sequence>
+                        <Children>
+                          <Node z:Id="i13" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>In the Retail category field, enter or select a value.</Description>
+                            <Id>2009RequestPopup_03cd9681-1170-4040-8cc3-2af1552492c0x20</Id>
+                            <Parent z:Ref="i12" />
+                            <ParentSequence>19</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>20</Sequence>
+                            <Annotations>
+                              <Annotation i:type="CanonicalActionAnnotation">
+                                <CanonicalUserAction z:Id="i14" i:type="CommandUserAction">
+                                  <CustomDescription i:nil="true" />
+                                  <Description i:nil="true" />
+                                  <Id i:nil="true" />
+                                  <Parent i:nil="true" />
+                                  <ParentSequence>0</ParentSequence>
+                                  <ScreenshotUri i:nil="true" />
+                                  <Sequence>0</Sequence>
+                                  <Annotations />
+                                  <GlobalId>a0fc2f02-3447-401a-8a23-73768693ccba</GlobalId>
+                                  <SystemGenerated>false</SystemGenerated>
+                                  <ControlLabel>Retail category</ControlLabel>
+                                  <ControlLabelId>@RET5714</ControlLabelId>
+                                  <FormId>1963_EcoResProductCreate_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                  <ListContext i:nil="true" />
+                                  <RowIndex i:nil="true" />
+                                  <Arguments />
+                                  <CommandName>ResolveChanges</CommandName>
+                                  <ControlName>CategoryReferenceGroup</ControlName>
+                                  <ControlType>ReferenceGroup</ControlType>
+                                  <LabelId>@SysTaskRecorder:SetValueFromLookUp</LabelId>
+                                  <ReturnType>Void</ReturnType>
+                                  <ReturnValue i:nil="true" />
+                                  <TaskId i:nil="true" />
+                                </CanonicalUserAction>
+                              </Annotation>
+                            </Annotations>
+                            <GlobalId>716d2f78-cf7e-4e2f-a118-7911f27d565d</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Retail category</ControlLabel>
+                            <ControlLabelId>@RET5714</ControlLabelId>
+                            <FormId>1963_EcoResProductCreate_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>RequestPopup</CommandName>
+                            <ControlName>CategoryReferenceGroup_Name</ControlName>
+                            <ControlType>Input</ControlType>
+                            <LabelId>@SysTaskRecorder:SetValueFromLookUp</LabelId>
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId i:nil="true" />
+                          </Node>
+                          <Node z:Id="i15" i:type="Scope">
+                            <CustomDescription i:nil="true" />
+                            <Description></Description>
+                            <Id>2020_EcoResCategorySingleLookup_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                            <Parent z:Ref="i12" />
+                            <ParentSequence>19</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>22</Sequence>
+                            <Children>
+                              <Node z:Id="i16" i:type="Scope">
+                                <CustomDescription i:nil="true" />
+                                <Description></Description>
+                                <Id>2044_0Click_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                <Parent z:Ref="i15" />
+                                <ParentSequence>23</ParentSequence>
+                                <ScreenshotUri i:nil="true" />
+                                <Sequence>24</Sequence>
+                                <Children>
+                                  <Node z:Id="i17" i:type="CommandUserAction">
+                                    <CustomDescription i:nil="true" />
+                                    <Description>Click OK.</Description>
+                                    <Id>2044_0Click_03cd9681-1170-4040-8cc3-2af1552492c0x25</Id>
+                                    <Parent z:Ref="i16" />
+                                    <ParentSequence>24</ParentSequence>
+                                    <ScreenshotUri i:nil="true" />
+                                    <Sequence>25</Sequence>
+                                    <Annotations>
+                                      <Annotation i:type="TaskGuideAnnotation">
+                                        <Description i:nil="true" />
+                                        <ExampleText i:nil="true" />
+                                        <GlobalId i:nil="true" />
+                                        <Hidden>true</Hidden>
+                                        <RecordingValueType>Preferred</RecordingValueType>
+                                        <Title i:nil="true" />
+                                      </Annotation>
+                                    </Annotations>
+                                    <GlobalId>3ecc570b-967b-4e35-8b49-95e84249a368</GlobalId>
+                                    <SystemGenerated>false</SystemGenerated>
+                                    <ControlLabel>OK</ControlLabel>
+                                    <ControlLabelId></ControlLabelId>
+                                    <FormId>2020_EcoResCategorySingleLookup_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                    <ListContext i:nil="true" />
+                                    <RowIndex i:nil="true" />
+                                    <Arguments />
+                                    <CommandName>Click</CommandName>
+                                    <ControlName>OKButton</ControlName>
+                                    <ControlType>CommandButton</ControlType>
+                                    <LabelId i:nil="true" />
+                                    <ReturnType>Void</ReturnType>
+                                    <ReturnValue i:nil="true" />
+                                    <TaskId>263</TaskId>
+                                  </Node>
+                                </Children>
+                                <IsForm>false</IsForm>
+                                <IsStepGroup>false</IsStepGroup>
+                                <Name>OKButton_Click</Name>
+                                <ScopeType>Private</ScopeType>
+                              </Node>
+                            </Children>
+                            <IsForm>true</IsForm>
+                            <IsStepGroup>false</IsStepGroup>
+                            <Name>EcoResCategorySingleLookup</Name>
+                            <ScopeType>Private</ScopeType>
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>true</IsStepGroup>
+                        <Name>CategoryReferenceGroup_CategoryReferenceGroup_Name_RequestPopup</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i18" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>2008ResolveChanges_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>17</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>26</Sequence>
+                        <Children>
+                          <Node z:Id="i19" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>ResolveChanges the Retail category.</Description>
+                            <Id>2008ResolveChanges_03cd9681-1170-4040-8cc3-2af1552492c0x27</Id>
+                            <Parent z:Ref="i18" />
+                            <ParentSequence>26</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>27</Sequence>
+                            <Annotations />
+                            <GlobalId>894779a6-508f-4274-b229-fd74a776436e</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>Retail category</ControlLabel>
+                            <ControlLabelId>@RET5714</ControlLabelId>
+                            <FormId>1963_EcoResProductCreate_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>ResolveChanges</CommandName>
+                            <ControlName>CategoryReferenceGroup</ControlName>
+                            <ControlType>ReferenceGroup</ControlType>
+                            <LabelId></LabelId>
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId i:nil="true" />
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>CategoryReferenceGroup_ResolveChanges</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                      <Node z:Id="i20" i:type="Scope">
+                        <CustomDescription i:nil="true" />
+                        <Description></Description>
+                        <Id>2012_0Click_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                        <Parent z:Ref="i7" />
+                        <ParentSequence>28</ParentSequence>
+                        <ScreenshotUri i:nil="true" />
+                        <Sequence>29</Sequence>
+                        <Children>
+                          <Node z:Id="i21" i:type="CommandUserAction">
+                            <CustomDescription i:nil="true" />
+                            <Description>Click OK.</Description>
+                            <Id>2012_0Click_03cd9681-1170-4040-8cc3-2af1552492c0x30</Id>
+                            <Parent z:Ref="i20" />
+                            <ParentSequence>29</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>30</Sequence>
+                            <Annotations />
+                            <GlobalId>4acc78de-ff5c-4392-a486-5072226a20cc</GlobalId>
+                            <SystemGenerated>false</SystemGenerated>
+                            <ControlLabel>OK</ControlLabel>
+                            <ControlLabelId></ControlLabelId>
+                            <FormId>1963_EcoResProductCreate_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                            <ListContext i:nil="true" />
+                            <RowIndex i:nil="true" />
+                            <Arguments />
+                            <CommandName>Click</CommandName>
+                            <ControlName>OKButton</ControlName>
+                            <ControlType>CommandButton</ControlType>
+                            <LabelId i:nil="true" />
+                            <ReturnType>Void</ReturnType>
+                            <ReturnValue i:nil="true" />
+                            <TaskId>263</TaskId>
+                          </Node>
+                          <Node z:Id="i22" i:type="Scope">
+                            <CustomDescription i:nil="true" />
+                            <Description></Description>
+                            <Id>2435_EcoResProductDetails_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                            <Parent z:Ref="i20" />
+                            <ParentSequence>29</ParentSequence>
+                            <ScreenshotUri i:nil="true" />
+                            <Sequence>31</Sequence>
+                            <Children>
+                              <Node z:Id="i23" i:type="Scope">
+                                <CustomDescription i:nil="true" />
+                                <Description></Description>
+                                <Id>3274RequestPopup_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                <Parent z:Ref="i22" />
+                                <ParentSequence>33</ParentSequence>
+                                <ScreenshotUri i:nil="true" />
+                                <Sequence>34</Sequence>
+                                <Children>
+                                  <Node z:Id="i24" i:type="CommandUserAction">
+                                    <CustomDescription i:nil="true" />
+                                    <Description>Click Dimension groups to open the drop dialog.</Description>
+                                    <Id>3274RequestPopup_03cd9681-1170-4040-8cc3-2af1552492c0x35</Id>
+                                    <Parent z:Ref="i23" />
+                                    <ParentSequence>34</ParentSequence>
+                                    <ScreenshotUri i:nil="true" />
+                                    <Sequence>35</Sequence>
+                                    <Annotations />
+                                    <GlobalId>9f807785-5f98-44a6-bc38-ed02be33a5a5</GlobalId>
+                                    <SystemGenerated>false</SystemGenerated>
+                                    <ControlLabel>Dimension groups</ControlLabel>
+                                    <ControlLabelId>@SYS57637</ControlLabelId>
+                                    <FormId>2435_EcoResProductDetails_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                    <ListContext i:nil="true" />
+                                    <RowIndex i:nil="true" />
+                                    <Arguments />
+                                    <CommandName>RequestPopup</CommandName>
+                                    <ControlName>EcoResProductInventoryDimensionGroups</ControlName>
+                                    <ControlType>DropDialogButton</ControlType>
+                                    <LabelId></LabelId>
+                                    <ReturnType>Void</ReturnType>
+                                    <ReturnValue i:nil="true" />
+                                    <TaskId i:nil="true" />
+                                  </Node>
+                                  <Node z:Id="i25" i:type="Scope">
+                                    <CustomDescription i:nil="true" />
+                                    <Description></Description>
+                                    <Id>3358_EcoResProductInventoryDimensionGroups_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                    <Parent z:Ref="i23" />
+                                    <ParentSequence>34</ParentSequence>
+                                    <ScreenshotUri i:nil="true" />
+                                    <Sequence>36</Sequence>
+                                    <Children>
+                                      <Node z:Id="i26" i:type="Scope">
+                                        <CustomDescription i:nil="true" />
+                                        <Description i:nil="true" />
+                                        <Id>3381RequestPopup_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                        <Parent z:Ref="i25" />
+                                        <ParentSequence>39</ParentSequence>
+                                        <ScreenshotUri i:nil="true" />
+                                        <Sequence>40</Sequence>
+                                        <Children>
+                                          <Node z:Id="i27" i:type="CommandUserAction">
+                                            <CustomDescription i:nil="true" />
+                                            <Description>In the Storage dimension group field, enter or select a value.</Description>
+                                            <Id>3381RequestPopup_03cd9681-1170-4040-8cc3-2af1552492c0x41</Id>
+                                            <Parent z:Ref="i26" />
+                                            <ParentSequence>40</ParentSequence>
+                                            <ScreenshotUri i:nil="true" />
+                                            <Sequence>41</Sequence>
+                                            <Annotations>
+                                              <Annotation i:type="CanonicalActionAnnotation">
+                                                <CanonicalUserAction z:Id="i28" i:type="CommandUserAction">
+                                                  <CustomDescription i:nil="true" />
+                                                  <Description i:nil="true" />
+                                                  <Id i:nil="true" />
+                                                  <Parent i:nil="true" />
+                                                  <ParentSequence>0</ParentSequence>
+                                                  <ScreenshotUri i:nil="true" />
+                                                  <Sequence>0</Sequence>
+                                                  <Annotations />
+                                                  <GlobalId>aced8eed-30c1-4d6a-a8d5-ef24d265904c</GlobalId>
+                                                  <SystemGenerated>false</SystemGenerated>
+                                                  <ControlLabel>Storage dimension group</ControlLabel>
+                                                  <ControlLabelId>@SYS312237</ControlLabelId>
+                                                  <FormId>3358_EcoResProductInventoryDimensionGroups_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                                  <ListContext i:nil="true" />
+                                                  <RowIndex i:nil="true" />
+                                                  <Arguments />
+                                                  <CommandName>ResolveChanges</CommandName>
+                                                  <ControlName>StorageDimensionGroup</ControlName>
+                                                  <ControlType>ReferenceGroup</ControlType>
+                                                  <LabelId>@SysTaskRecorder:SetValueFromLookUp</LabelId>
+                                                  <ReturnType>Void</ReturnType>
+                                                  <ReturnValue i:nil="true" />
+                                                  <TaskId i:nil="true" />
+                                                </CanonicalUserAction>
+                                              </Annotation>
+                                            </Annotations>
+                                            <GlobalId>8c1ed3c3-3afd-4cc5-99ea-7424ee94234e</GlobalId>
+                                            <SystemGenerated>false</SystemGenerated>
+                                            <ControlLabel>Storage dimension group</ControlLabel>
+                                            <ControlLabelId>@SYS312237</ControlLabelId>
+                                            <FormId>3358_EcoResProductInventoryDimensionGroups_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                            <ListContext i:nil="true" />
+                                            <RowIndex i:nil="true" />
+                                            <Arguments />
+                                            <CommandName>RequestPopup</CommandName>
+                                            <ControlName>StorageDimensionGroup_Name</ControlName>
+                                            <ControlType>Input</ControlType>
+                                            <LabelId>@SysTaskRecorder:SetValueFromLookUp</LabelId>
+                                            <ReturnType>Void</ReturnType>
+                                            <ReturnValue i:nil="true" />
+                                            <TaskId i:nil="true" />
+                                          </Node>
+                                          <Node z:Id="i29" i:type="Scope">
+                                            <CustomDescription i:nil="true" />
+                                            <Description></Description>
+                                            <Id>3385_StorageDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                            <Parent z:Ref="i26" />
+                                            <ParentSequence>40</ParentSequence>
+                                            <ScreenshotUri i:nil="true" />
+                                            <Sequence>43</Sequence>
+                                            <Children>
+                                              <Node z:Id="i30" i:type="Scope">
+                                                <CustomDescription i:nil="true" />
+                                                <Description></Description>
+                                                <Id>3403ChangeSelectedIndexInCache_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                                <Parent z:Ref="i29" />
+                                                <ParentSequence>44</ParentSequence>
+                                                <ScreenshotUri i:nil="true" />
+                                                <Sequence>45</Sequence>
+                                                <Children>
+                                                  <Node z:Id="i31" i:type="CommandUserAction">
+                                                    <CustomDescription i:nil="true" />
+                                                    <Description>In the list, select row 2.</Description>
+                                                    <Id>3403ChangeSelectedIndexInCache_03cd9681-1170-4040-8cc3-2af1552492c0x46</Id>
+                                                    <Parent z:Ref="i30" />
+                                                    <ParentSequence>45</ParentSequence>
+                                                    <ScreenshotUri i:nil="true" />
+                                                    <Sequence>46</Sequence>
+                                                    <Annotations>
+                                                      <Annotation i:type="TaskGuideAnnotation">
+                                                        <Description i:nil="true" />
+                                                        <ExampleText i:nil="true" />
+                                                        <GlobalId i:nil="true" />
+                                                        <Hidden>true</Hidden>
+                                                        <RecordingValueType>Preferred</RecordingValueType>
+                                                        <Title i:nil="true" />
+                                                      </Annotation>
+                                                    </Annotations>
+                                                    <GlobalId>08ae9022-df6c-44d5-ac7e-11ced9df2a4c</GlobalId>
+                                                    <SystemGenerated>false</SystemGenerated>
+                                                    <ControlLabel></ControlLabel>
+                                                    <ControlLabelId></ControlLabelId>
+                                                    <FormId>3385_StorageDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                                    <ListContext>Grid</ListContext>
+                                                    <RowIndex i:nil="true" />
+                                                    <Arguments>
+                                                      <CommandArgument>
+                                                        <IsReference>false</IsReference>
+                                                        <Value>2</Value>
+                                                      </CommandArgument>
+                                                      <CommandArgument>
+                                                        <IsReference>false</IsReference>
+                                                        <Value>4</Value>
+                                                      </CommandArgument>
+                                                      <CommandArgument>
+                                                        <IsReference>false</IsReference>
+                                                        <Value>1</Value>
+                                                      </CommandArgument>
+                                                      <CommandArgument>
+                                                        <IsReference>false</IsReference>
+                                                        <Value>first</Value>
+                                                      </CommandArgument>
+                                                    </Arguments>
+                                                    <CommandName>ChangeSelectedIndexInCache</CommandName>
+                                                    <ControlName>Grid</ControlName>
+                                                    <ControlType>Grid</ControlType>
+                                                    <LabelId></LabelId>
+                                                    <ReturnType>Void</ReturnType>
+                                                    <ReturnValue i:nil="true" />
+                                                    <TaskId i:nil="true" />
+                                                  </Node>
+                                                </Children>
+                                                <IsForm>false</IsForm>
+                                                <IsStepGroup>false</IsStepGroup>
+                                                <Name>Grid_ChangeSelectedIndexInCache</Name>
+                                                <ScopeType>Private</ScopeType>
+                                              </Node>
+                                              <Node z:Id="i32" i:type="Scope">
+                                                <CustomDescription i:nil="true" />
+                                                <Description></Description>
+                                                <Id>3403NavigationAction_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                                <Parent z:Ref="i29" />
+                                                <ParentSequence>44</ParentSequence>
+                                                <ScreenshotUri i:nil="true" />
+                                                <Sequence>47</Sequence>
+                                                <Children>
+                                                  <Node z:Id="i33" i:type="CommandUserAction">
+                                                    <CustomDescription i:nil="true" />
+                                                    <Description>In the list, click the link in the selected row.</Description>
+                                                    <Id>3403NavigationAction_03cd9681-1170-4040-8cc3-2af1552492c0x48</Id>
+                                                    <Parent z:Ref="i32" />
+                                                    <ParentSequence>47</ParentSequence>
+                                                    <ScreenshotUri i:nil="true" />
+                                                    <Sequence>48</Sequence>
+                                                    <Annotations>
+                                                      <Annotation i:type="TaskGuideAnnotation">
+                                                        <Description i:nil="true" />
+                                                        <ExampleText i:nil="true" />
+                                                        <GlobalId i:nil="true" />
+                                                        <Hidden>true</Hidden>
+                                                        <RecordingValueType>Preferred</RecordingValueType>
+                                                        <Title i:nil="true" />
+                                                      </Annotation>
+                                                    </Annotations>
+                                                    <GlobalId>47951dfd-2044-4da2-8811-2bf8e2d73b0a</GlobalId>
+                                                    <SystemGenerated>false</SystemGenerated>
+                                                    <ControlLabel></ControlLabel>
+                                                    <ControlLabelId></ControlLabelId>
+                                                    <FormId>3385_StorageDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                                    <ListContext>Grid</ListContext>
+                                                    <RowIndex i:nil="true" />
+                                                    <Arguments />
+                                                    <CommandName>NavigationAction</CommandName>
+                                                    <ControlName>Grid</ControlName>
+                                                    <ControlType>Grid</ControlType>
+                                                    <LabelId></LabelId>
+                                                    <ReturnType>Void</ReturnType>
+                                                    <ReturnValue i:nil="true" />
+                                                    <TaskId i:nil="true" />
+                                                  </Node>
+                                                </Children>
+                                                <IsForm>false</IsForm>
+                                                <IsStepGroup>false</IsStepGroup>
+                                                <Name>Grid_NavigationAction</Name>
+                                                <ScopeType>Private</ScopeType>
+                                              </Node>
+                                            </Children>
+                                            <IsForm>true</IsForm>
+                                            <IsStepGroup>false</IsStepGroup>
+                                            <Name>StorageDimensionGroup_Lookup</Name>
+                                            <ScopeType>Private</ScopeType>
+                                          </Node>
+                                        </Children>
+                                        <IsForm>false</IsForm>
+                                        <IsStepGroup>true</IsStepGroup>
+                                        <Name>StorageDimensionGroup_StorageDimensionGroup_Name_RequestPopup</Name>
+                                        <ScopeType>Private</ScopeType>
+                                      </Node>
+                                      <Node z:Id="i34" i:type="Scope">
+                                        <CustomDescription i:nil="true" />
+                                        <Description i:nil="true" />
+                                        <Id>3383RequestPopup_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                        <Parent z:Ref="i25" />
+                                        <ParentSequence>50</ParentSequence>
+                                        <ScreenshotUri i:nil="true" />
+                                        <Sequence>51</Sequence>
+                                        <Children>
+                                          <Node z:Id="i35" i:type="CommandUserAction">
+                                            <CustomDescription i:nil="true" />
+                                            <Description>In the Tracking dimension group field, enter or select a value.</Description>
+                                            <Id>3383RequestPopup_03cd9681-1170-4040-8cc3-2af1552492c0x52</Id>
+                                            <Parent z:Ref="i34" />
+                                            <ParentSequence>51</ParentSequence>
+                                            <ScreenshotUri i:nil="true" />
+                                            <Sequence>52</Sequence>
+                                            <Annotations>
+                                              <Annotation i:type="CanonicalActionAnnotation">
+                                                <CanonicalUserAction z:Id="i36" i:type="CommandUserAction">
+                                                  <CustomDescription i:nil="true" />
+                                                  <Description i:nil="true" />
+                                                  <Id i:nil="true" />
+                                                  <Parent i:nil="true" />
+                                                  <ParentSequence>0</ParentSequence>
+                                                  <ScreenshotUri i:nil="true" />
+                                                  <Sequence>0</Sequence>
+                                                  <Annotations />
+                                                  <GlobalId>1ff15042-c945-4534-85a2-c310611bae72</GlobalId>
+                                                  <SystemGenerated>false</SystemGenerated>
+                                                  <ControlLabel>Tracking dimension group</ControlLabel>
+                                                  <ControlLabelId>@SYS312248</ControlLabelId>
+                                                  <FormId>3358_EcoResProductInventoryDimensionGroups_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                                  <ListContext i:nil="true" />
+                                                  <RowIndex i:nil="true" />
+                                                  <Arguments />
+                                                  <CommandName>ResolveChanges</CommandName>
+                                                  <ControlName>TrackingDimensionGroup</ControlName>
+                                                  <ControlType>ReferenceGroup</ControlType>
+                                                  <LabelId>@SysTaskRecorder:SetValueFromLookUp</LabelId>
+                                                  <ReturnType>Void</ReturnType>
+                                                  <ReturnValue i:nil="true" />
+                                                  <TaskId i:nil="true" />
+                                                </CanonicalUserAction>
+                                              </Annotation>
+                                            </Annotations>
+                                            <GlobalId>3a6b6f23-d148-40c0-97a2-ae098cfb92c2</GlobalId>
+                                            <SystemGenerated>false</SystemGenerated>
+                                            <ControlLabel>Tracking dimension group</ControlLabel>
+                                            <ControlLabelId>@SYS312248</ControlLabelId>
+                                            <FormId>3358_EcoResProductInventoryDimensionGroups_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                            <ListContext i:nil="true" />
+                                            <RowIndex i:nil="true" />
+                                            <Arguments />
+                                            <CommandName>RequestPopup</CommandName>
+                                            <ControlName>TrackingDimensionGroup_Name</ControlName>
+                                            <ControlType>Input</ControlType>
+                                            <LabelId>@SysTaskRecorder:SetValueFromLookUp</LabelId>
+                                            <ReturnType>Void</ReturnType>
+                                            <ReturnValue i:nil="true" />
+                                            <TaskId i:nil="true" />
+                                          </Node>
+                                          <Node z:Id="i37" i:type="Scope">
+                                            <CustomDescription i:nil="true" />
+                                            <Description></Description>
+                                            <Id>3417_TrackingDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                            <Parent z:Ref="i34" />
+                                            <ParentSequence>51</ParentSequence>
+                                            <ScreenshotUri i:nil="true" />
+                                            <Sequence>54</Sequence>
+                                            <Children>
+                                              <Node z:Id="i38" i:type="Scope">
+                                                <CustomDescription i:nil="true" />
+                                                <Description></Description>
+                                                <Id>3445ChangeSelectedIndexInCache_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                                <Parent z:Ref="i37" />
+                                                <ParentSequence>55</ParentSequence>
+                                                <ScreenshotUri i:nil="true" />
+                                                <Sequence>56</Sequence>
+                                                <Children>
+                                                  <Node z:Id="i39" i:type="CommandUserAction">
+                                                    <CustomDescription i:nil="true" />
+                                                    <Description>In the list, select row 4.</Description>
+                                                    <Id>3445ChangeSelectedIndexInCache_03cd9681-1170-4040-8cc3-2af1552492c0x57</Id>
+                                                    <Parent z:Ref="i38" />
+                                                    <ParentSequence>56</ParentSequence>
+                                                    <ScreenshotUri i:nil="true" />
+                                                    <Sequence>57</Sequence>
+                                                    <Annotations>
+                                                      <Annotation i:type="TaskGuideAnnotation">
+                                                        <Description i:nil="true" />
+                                                        <ExampleText i:nil="true" />
+                                                        <GlobalId i:nil="true" />
+                                                        <Hidden>true</Hidden>
+                                                        <RecordingValueType>Preferred</RecordingValueType>
+                                                        <Title i:nil="true" />
+                                                      </Annotation>
+                                                    </Annotations>
+                                                    <GlobalId>48cb54a6-d2b6-4939-b0e5-7885322601d1</GlobalId>
+                                                    <SystemGenerated>false</SystemGenerated>
+                                                    <ControlLabel></ControlLabel>
+                                                    <ControlLabelId></ControlLabelId>
+                                                    <FormId>3417_TrackingDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                                    <ListContext>Grid</ListContext>
+                                                    <RowIndex i:nil="true" />
+                                                    <Arguments>
+                                                      <CommandArgument>
+                                                        <IsReference>false</IsReference>
+                                                        <Value>4</Value>
+                                                      </CommandArgument>
+                                                      <CommandArgument>
+                                                        <IsReference>false</IsReference>
+                                                        <Value>4</Value>
+                                                      </CommandArgument>
+                                                      <CommandArgument>
+                                                        <IsReference>false</IsReference>
+                                                        <Value>1</Value>
+                                                      </CommandArgument>
+                                                      <CommandArgument>
+                                                        <IsReference>false</IsReference>
+                                                        <Value>first</Value>
+                                                      </CommandArgument>
+                                                    </Arguments>
+                                                    <CommandName>ChangeSelectedIndexInCache</CommandName>
+                                                    <ControlName>Grid</ControlName>
+                                                    <ControlType>Grid</ControlType>
+                                                    <LabelId></LabelId>
+                                                    <ReturnType>Void</ReturnType>
+                                                    <ReturnValue i:nil="true" />
+                                                    <TaskId i:nil="true" />
+                                                  </Node>
+                                                </Children>
+                                                <IsForm>false</IsForm>
+                                                <IsStepGroup>false</IsStepGroup>
+                                                <Name>Grid_ChangeSelectedIndexInCache</Name>
+                                                <ScopeType>Private</ScopeType>
+                                              </Node>
+                                              <Node z:Id="i40" i:type="Scope">
+                                                <CustomDescription i:nil="true" />
+                                                <Description></Description>
+                                                <Id>3445NavigationAction_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                                <Parent z:Ref="i37" />
+                                                <ParentSequence>55</ParentSequence>
+                                                <ScreenshotUri i:nil="true" />
+                                                <Sequence>58</Sequence>
+                                                <Children>
+                                                  <Node z:Id="i41" i:type="CommandUserAction">
+                                                    <CustomDescription i:nil="true" />
+                                                    <Description>In the list, click the link in the selected row.</Description>
+                                                    <Id>3445NavigationAction_03cd9681-1170-4040-8cc3-2af1552492c0x59</Id>
+                                                    <Parent z:Ref="i40" />
+                                                    <ParentSequence>58</ParentSequence>
+                                                    <ScreenshotUri i:nil="true" />
+                                                    <Sequence>59</Sequence>
+                                                    <Annotations>
+                                                      <Annotation i:type="TaskGuideAnnotation">
+                                                        <Description i:nil="true" />
+                                                        <ExampleText i:nil="true" />
+                                                        <GlobalId i:nil="true" />
+                                                        <Hidden>true</Hidden>
+                                                        <RecordingValueType>Preferred</RecordingValueType>
+                                                        <Title i:nil="true" />
+                                                      </Annotation>
+                                                    </Annotations>
+                                                    <GlobalId>3d184439-aaf8-472b-aae2-71edac0dbdd1</GlobalId>
+                                                    <SystemGenerated>false</SystemGenerated>
+                                                    <ControlLabel></ControlLabel>
+                                                    <ControlLabelId></ControlLabelId>
+                                                    <FormId>3417_TrackingDimensionGroup_Lookup_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                                    <ListContext>Grid</ListContext>
+                                                    <RowIndex i:nil="true" />
+                                                    <Arguments />
+                                                    <CommandName>NavigationAction</CommandName>
+                                                    <ControlName>Grid</ControlName>
+                                                    <ControlType>Grid</ControlType>
+                                                    <LabelId></LabelId>
+                                                    <ReturnType>Void</ReturnType>
+                                                    <ReturnValue i:nil="true" />
+                                                    <TaskId i:nil="true" />
+                                                  </Node>
+                                                </Children>
+                                                <IsForm>false</IsForm>
+                                                <IsStepGroup>false</IsStepGroup>
+                                                <Name>Grid_NavigationAction</Name>
+                                                <ScopeType>Private</ScopeType>
+                                              </Node>
+                                            </Children>
+                                            <IsForm>true</IsForm>
+                                            <IsStepGroup>false</IsStepGroup>
+                                            <Name>TrackingDimensionGroup_Lookup</Name>
+                                            <ScopeType>Private</ScopeType>
+                                          </Node>
+                                        </Children>
+                                        <IsForm>false</IsForm>
+                                        <IsStepGroup>true</IsStepGroup>
+                                        <Name>TrackingDimensionGroup_TrackingDimensionGroup_Name_RequestPopup</Name>
+                                        <ScopeType>Private</ScopeType>
+                                      </Node>
+                                      <Node z:Id="i42" i:type="Scope">
+                                        <CustomDescription i:nil="true" />
+                                        <Description></Description>
+                                        <Id>3384_0Click_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                        <Parent z:Ref="i25" />
+                                        <ParentSequence>60</ParentSequence>
+                                        <ScreenshotUri i:nil="true" />
+                                        <Sequence>61</Sequence>
+                                        <Children>
+                                          <Node z:Id="i43" i:type="CommandUserAction">
+                                            <CustomDescription i:nil="true" />
+                                            <Description>Click OK.</Description>
+                                            <Id>3384_0Click_03cd9681-1170-4040-8cc3-2af1552492c0x62</Id>
+                                            <Parent z:Ref="i42" />
+                                            <ParentSequence>61</ParentSequence>
+                                            <ScreenshotUri i:nil="true" />
+                                            <Sequence>62</Sequence>
+                                            <Annotations />
+                                            <GlobalId>d8baf916-f422-47e2-85b5-1dc48d65d96d</GlobalId>
+                                            <SystemGenerated>false</SystemGenerated>
+                                            <ControlLabel>OK</ControlLabel>
+                                            <ControlLabelId></ControlLabelId>
+                                            <FormId>3358_EcoResProductInventoryDimensionGroups_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                            <ListContext i:nil="true" />
+                                            <RowIndex i:nil="true" />
+                                            <Arguments />
+                                            <CommandName>Click</CommandName>
+                                            <ControlName>OKButton</ControlName>
+                                            <ControlType>CommandButton</ControlType>
+                                            <LabelId i:nil="true" />
+                                            <ReturnType>Void</ReturnType>
+                                            <ReturnValue i:nil="true" />
+                                            <TaskId>263</TaskId>
+                                          </Node>
+                                        </Children>
+                                        <IsForm>false</IsForm>
+                                        <IsStepGroup>false</IsStepGroup>
+                                        <Name>OKButton_Click</Name>
+                                        <ScopeType>Private</ScopeType>
+                                      </Node>
+                                    </Children>
+                                    <IsForm>true</IsForm>
+                                    <IsStepGroup>false</IsStepGroup>
+                                    <Name>EcoResProductInventoryDimensionGroups</Name>
+                                    <ScopeType>Public</ScopeType>
+                                  </Node>
+                                </Children>
+                                <IsForm>false</IsForm>
+                                <IsStepGroup>false</IsStepGroup>
+                                <Name>EcoResProductInventoryDimensionGroups_RequestPopup</Name>
+                                <ScopeType>Private</ScopeType>
+                              </Node>
+                              <Node z:Id="i44" i:type="Scope">
+                                <CustomDescription i:nil="true" />
+                                <Description></Description>
+                                <Id>3264_0Click_03cd9681-1170-4040-8cc3-2af1552492c0</Id>
+                                <Parent z:Ref="i22" />
+                                <ParentSequence>69</ParentSequence>
+                                <ScreenshotUri i:nil="true" />
+                                <Sequence>70</Sequence>
+                                <Children>
+                                  <Node z:Id="i45" i:type="CommandUserAction">
+                                    <CustomDescription i:nil="true" />
+                                    <Description>Click Save.</Description>
+                                    <Id>3264_0Click_03cd9681-1170-4040-8cc3-2af1552492c0x71</Id>
+                                    <Parent z:Ref="i44" />
+                                    <ParentSequence>70</ParentSequence>
+                                    <ScreenshotUri i:nil="true" />
+                                    <Sequence>71</Sequence>
+                                    <Annotations />
+                                    <GlobalId>6ebfab6d-ca0a-45ba-8c3f-50d3b85ff47e</GlobalId>
+                                    <SystemGenerated>false</SystemGenerated>
+                                    <ControlLabel>Save</ControlLabel>
+                                    <ControlLabelId></ControlLabelId>
+                                    <FormId>2435_EcoResProductDetails_03cd9681-1170-4040-8cc3-2af1552492c0</FormId>
+                                    <ListContext i:nil="true" />
+                                    <RowIndex i:nil="true" />
+                                    <Arguments />
+                                    <CommandName>Click</CommandName>
+                                    <ControlName>SystemDefinedSaveButton</ControlName>
+                                    <ControlType>CommandButton</ControlType>
+                                    <LabelId i:nil="true" />
+                                    <ReturnType>Void</ReturnType>
+                                    <ReturnValue i:nil="true" />
+                                    <TaskId>272</TaskId>
+                                  </Node>
+                                </Children>
+                                <IsForm>false</IsForm>
+                                <IsStepGroup>false</IsStepGroup>
+                                <Name>SystemDefinedSaveButton_Click</Name>
+                                <ScopeType>Private</ScopeType>
+                              </Node>
+                            </Children>
+                            <IsForm>true</IsForm>
+                            <IsStepGroup>false</IsStepGroup>
+                            <Name>EcoResProductDetails</Name>
+                            <ScopeType>Public</ScopeType>
+                          </Node>
+                        </Children>
+                        <IsForm>false</IsForm>
+                        <IsStepGroup>false</IsStepGroup>
+                        <Name>OKButton_Click</Name>
+                        <ScopeType>Private</ScopeType>
+                      </Node>
+                    </Children>
+                    <IsForm>true</IsForm>
+                    <IsStepGroup>false</IsStepGroup>
+                    <Name>EcoResProductCreate</Name>
+                    <ScopeType>Public</ScopeType>
+                  </Node>
+                </Children>
+                <IsForm>false</IsForm>
+                <IsStepGroup>false</IsStepGroup>
+                <Name>SystemDefinedNewButton_Click</Name>
+                <ScopeType>Private</ScopeType>
+              </Node>
+            </Children>
+            <IsForm>true</IsForm>
+            <IsStepGroup>false</IsStepGroup>
+            <Name>EcoResProductListPage</Name>
+            <ScopeType>Public</ScopeType>
+          </Node>
+        </Children>
+        <IsForm>false</IsForm>
+        <IsStepGroup>false</IsStepGroup>
+        <Name>MenuItem_ecoresdistinctproductlistpage</Name>
+        <ScopeType>Private</ScopeType>
+      </Node>
+    </Children>
+    <IsForm>false</IsForm>
+    <IsStepGroup>false</IsStepGroup>
+    <Name>DummyProduct</Name>
+    <ScopeType>Public</ScopeType>
+  </RootScope>
+  <UserActions xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:anyType z:Ref="i3" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i6" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i9" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i11" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i13" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i17" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i19" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i21" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i24" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i27" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i31" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i33" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i35" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i39" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i41" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i43" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+    <d2p1:anyType z:Ref="i45" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" />
+  </UserActions>
+  <Version>1</Version>
+</Recording>
